@@ -20,7 +20,20 @@ class ArticleController
 
     public function homepage() {
 
-        return new Response("My first page");
+        return new Response('My first page');
+
+    }
+
+    /**
+     * @Route("/news/{slug}")
+     */
+
+    public function show($slug) {
+
+        return new Response(sprintf(
+            'Future page to show the article: %s',
+            $slug
+        ));
 
     }
 
