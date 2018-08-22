@@ -53,9 +53,9 @@
         <counts>
           <entry key="css" value="3" />
           <entry key="js" value="309" />
-          <entry key="php" value="949" />
+          <entry key="php" value="1011" />
           <entry key="twig" value="670" />
-          <entry key="txt" value="479" />
+          <entry key="txt" value="498" />
           <entry key="yaml" value="15" />
         </counts>
       </usages-collector>
@@ -63,8 +63,8 @@
         <counts>
           <entry key="CSS" value="3" />
           <entry key="JavaScript" value="309" />
-          <entry key="PHP" value="949" />
-          <entry key="PLAIN_TEXT" value="479" />
+          <entry key="PHP" value="1011" />
+          <entry key="PLAIN_TEXT" value="498" />
           <entry key="Twig" value="670" />
           <entry key="YAML" value="15" />
         </counts>
@@ -81,11 +81,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+            <state relative-caret-position="109">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
-                <element signature="e#118#183#0#PHP" expanded="true" />
                 <element signature="e#829#853#0#PHP" expanded="true" />
               </folding>
             </state>
@@ -220,6 +219,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
       <path value="$PROJECT_DIR$/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -296,7 +298,7 @@
       <workItem from="1534777838444" duration="660000" />
       <workItem from="1534840211259" duration="1972000" />
       <workItem from="1534847674778" duration="13337000" />
-      <workItem from="1534931599948" duration="235000" />
+      <workItem from="1534931599948" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="Symfony 4 push">
       <created>1534777903254</created>
@@ -389,11 +391,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534866390975</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added composer require symfony/monolog-bundle for logging.">
+      <created>1534932142160</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1534932142160</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16204000" />
+    <option name="totallyTimeSpent" value="16572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="862" y="22" width="818" height="1028" extended-state="0" />
@@ -439,7 +448,8 @@
     <MESSAGE value="Completed chapter 10: Generating URLs" />
     <MESSAGE value="Completed chapter 11: JavaScript &amp; Page-Specific Assets" />
     <MESSAGE value="Completed chapter 12: JSON API Endpoint" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed chapter 12: JSON API Endpoint" />
+    <MESSAGE value="Added composer require symfony/monolog-bundle for logging." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added composer require symfony/monolog-bundle for logging." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/index.php">
@@ -537,11 +547,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        <state relative-caret-position="109">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
-            <element signature="e#118#183#0#PHP" expanded="true" />
             <element signature="e#829#853#0#PHP" expanded="true" />
           </folding>
         </state>
