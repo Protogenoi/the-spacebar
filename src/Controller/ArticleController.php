@@ -32,23 +32,20 @@ class ArticleController extends AbstractController
      * @Route("/news/{slug}", name="article_show")
      */
 
-    public function show($slug, Environment $twigEnviroment) {
+    public function show($slug)
+        {
+            $comments = [
+                'I ate a normal rock once. It did NOT taste like bacon!',
+                'Woohoo! I\'m going on an all-asteroid diet!',
+                'I like bacon too! Buy some from my site! bakinsomebacon.com',
+            ];
 
-        $comments = [
-            'I ate a normal rock once!',
-            'Do not eat rocks stupid',
-            'I like bacon'
-        ];
-
-        $html = $twigEnviroment->render('article/show.html.twig', [
-            'title' => ucwords(str_replace('-',' ',$slug)),
-            'comments' => $comments,
-            'slug' => $slug
-        ]);
-
-        return new Response($html);
-
-    }
+            return $this->render('article/show.html.twig', [
+                'title' => ucwords(str_replace('-', ' ', $slug)),
+                'slug' => $slug,
+                'comments' => $comments,
+            ]);
+        }
 
     /**
      * @Route("/news/{slug}/heart", name="article_toggle_heart", methods={"POST"})
