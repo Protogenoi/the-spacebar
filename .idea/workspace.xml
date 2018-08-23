@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="">
+    <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="Added composer require knplabs/knp-markdown-bundle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/article/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article/show.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +35,8 @@
           <entry key="js" value="1" />
           <entry key="json" value="1" />
           <entry key="md" value="1" />
-          <entry key="php" value="13" />
-          <entry key="twig" value="13" />
+          <entry key="php" value="17" />
+          <entry key="twig" value="14" />
           <entry key="yaml" value="6" />
         </counts>
       </usages-collector>
@@ -47,9 +48,9 @@
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="13" />
+          <entry key="PHP" value="17" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Twig" value="13" />
+          <entry key="Twig" value="14" />
           <entry key="YAML" value="6" />
         </counts>
       </usages-collector>
@@ -58,20 +59,21 @@
           <entry key="css" value="3" />
           <entry key="js" value="309" />
           <entry key="md" value="14" />
-          <entry key="php" value="1213" />
-          <entry key="twig" value="670" />
-          <entry key="txt" value="557" />
+          <entry key="php" value="1444" />
+          <entry key="twig" value="683" />
+          <entry key="txt" value="583" />
           <entry key="yaml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="3" />
+          <entry key="HTML" value="9" />
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
-          <entry key="PHP" value="1213" />
-          <entry key="PLAIN_TEXT" value="557" />
-          <entry key="Twig" value="670" />
+          <entry key="PHP" value="1435" />
+          <entry key="PLAIN_TEXT" value="583" />
+          <entry key="Twig" value="683" />
           <entry key="YAML" value="15" />
         </counts>
       </usages-collector>
@@ -84,27 +86,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            <state relative-caret-position="148">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
-                <element signature="e#118#146#0#PHP" expanded="true" />
+                <element signature="e#118#148#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/code-symfony-fundamentals/start/src/Controller/ArticleController.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/article/show.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="37" selection-end-column="5" />
-              <folding>
-                <element signature="e#34#62#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="420">
+              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -125,6 +124,8 @@
       <find>The Space Bar</find>
       <find>('click', function(e) {</find>
       <find>/news/($slug}/heart</find>
+      <find>&lt;/p&gt;</find>
+      <find>$articleContent</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,11 +140,11 @@
         <option value="$PROJECT_DIR$/public/css/styles.css" />
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/templates/article/homepage.html.twig" />
-        <option value="$PROJECT_DIR$/templates/article/show.html.twig" />
         <option value="$PROJECT_DIR$/public/js/article_show.js" />
         <option value="$PROJECT_DIR$/config/packages/prod/monolog.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Controller/ArticleController.php" />
+        <option value="$PROJECT_DIR$/templates/article/show.html.twig" />
       </list>
     </option>
   </component>
@@ -201,6 +202,8 @@
       <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
       <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/michelf/php-markdown" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-markdown-bundle" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -242,6 +245,12 @@
               <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
               <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="article" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -288,7 +297,7 @@
       <workItem from="1534840211259" duration="1972000" />
       <workItem from="1534847674778" duration="13337000" />
       <workItem from="1534931599948" duration="6037000" />
-      <workItem from="1535019390945" duration="399000" />
+      <workItem from="1535019390945" duration="3687000" />
     </task>
     <task id="LOCAL-00001" summary="Symfony 4 push">
       <created>1534777903254</created>
@@ -409,11 +418,25 @@
       <option name="project" value="LOCAL" />
       <updated>1534932896409</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Updated to start: Course: Symfony 4 Fundamentals: Services, Config &amp; Environments Tutorial">
+      <created>1535020083548</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1535020083548</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added composer require knplabs/knp-markdown-bundle">
+      <created>1535020294394</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1535020294394</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22405000" />
+    <option name="totallyTimeSpent" value="25693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,7 +464,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -472,7 +495,9 @@
     <MESSAGE value="Updated old use to Symfony\Component\Routing\Annotation\Route" />
     <MESSAGE value="Completed chapter 13: Services" />
     <MESSAGE value="Rotate your Log Files code https://symfony.com/doc/current/logging.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rotate your Log Files code https://symfony.com/doc/current/logging.html" />
+    <MESSAGE value="Updated to start: Course: Symfony 4 Fundamentals: Services, Config &amp; Environments Tutorial" />
+    <MESSAGE value="Added composer require knplabs/knp-markdown-bundle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added composer require knplabs/knp-markdown-bundle" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/composer.json">
@@ -483,9 +508,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/security_checker.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/bundles.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/twig.yaml">
@@ -567,13 +589,6 @@
     <entry file="file://$PROJECT_DIR$/src/Controller/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/article/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="92" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -588,24 +603,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/bundles.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$USER_HOME$/Downloads/code-symfony-fundamentals/start/src/Controller/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" selection-start-line="25" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding>
             <element signature="e#34#62#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/code-symfony-fundamentals/finish/src/Controller/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="65" column="4" selection-start-line="48" selection-start-column="7" selection-end-line="65" selection-end-column="4" />
+          <folding>
+            <element signature="e#34#65#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        <state relative-caret-position="148">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
-            <element signature="e#118#146#0#PHP" expanded="true" />
+            <element signature="e#118#148#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
         </state>
       </provider>
     </entry>
