@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/the_spacebar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/the_spacebar.iml" afterDir="false" />
+    <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="Completed chapter 19: Fun with Commands">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,9 +68,9 @@
           <entry key="env" value="81" />
           <entry key="js" value="309" />
           <entry key="md" value="14" />
-          <entry key="php" value="3039" />
+          <entry key="php" value="3475" />
           <entry key="twig" value="684" />
-          <entry key="txt" value="874" />
+          <entry key="txt" value="876" />
           <entry key="yaml" value="414" />
         </counts>
       </usages-collector>
@@ -87,8 +81,8 @@
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
-          <entry key="PHP" value="3030" />
-          <entry key="PLAIN_TEXT" value="894" />
+          <entry key="PHP" value="3466" />
+          <entry key="PLAIN_TEXT" value="896" />
           <entry key="Twig" value="684" />
           <entry key="YAML" value="414" />
         </counts>
@@ -132,7 +126,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Command/ArticleStatsCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="559">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#31#77#0#PHP" expanded="true" />
               </folding>
@@ -246,6 +241,7 @@
         <option value="$PROJECT_DIR$/src/Controller/ArticleController.php" />
         <option value="$PROJECT_DIR$/src/Helper/LoggerTrait.php" />
         <option value="$PROJECT_DIR$/src/Service/SlackClient.php" />
+        <option value="$PROJECT_DIR$/src/Command/ArticleStatsCommand.php" />
       </list>
     </option>
   </component>
@@ -408,7 +404,7 @@
       <workItem from="1535108694364" duration="5659000" />
       <workItem from="1535446263456" duration="536000" />
       <workItem from="1535552676723" duration="6783000" />
-      <workItem from="1535618198697" duration="5105000" />
+      <workItem from="1535618198697" duration="7473000" />
     </task>
     <task id="LOCAL-00001" summary="Symfony 4 push">
       <created>1534777903254</created>
@@ -648,11 +644,25 @@
       <option name="project" value="LOCAL" />
       <updated>1535639274356</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Completed chapter 18: MakerBundle">
+      <created>1535640629076</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1535640629076</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Completed chapter 19: Fun with Commands">
+      <created>1535643994981</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1535643994981</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52690000" />
+    <option name="totallyTimeSpent" value="55058000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -679,9 +689,9 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4993804" visible="true" weight="0.32905984" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5006196" side_tool="true" weight="0.32905984" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49760193" weight="0.32905984" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5023981" side_tool="true" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -716,8 +726,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added composer require asset. Added CSS and Javascript files." />
-    <MESSAGE value="Completed chapter 10: Generating URLs" />
     <MESSAGE value="Completed chapter 11: JavaScript &amp; Page-Specific Assets" />
     <MESSAGE value="Completed chapter 12: JSON API Endpoint" />
     <MESSAGE value="Added composer require symfony/monolog-bundle for logging." />
@@ -741,7 +749,9 @@
     <MESSAGE value="Completed chapter 15: Environment Variables" />
     <MESSAGE value="Completed chapter 16: Env Var Tricks &amp; on Production" />
     <MESSAGE value="Completed chapter 17: Bonus! LoggerTrait &amp; Setter Injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed chapter 17: Bonus! LoggerTrait &amp; Setter Injection" />
+    <MESSAGE value="Completed chapter 18: MakerBundle" />
+    <MESSAGE value="Completed chapter 19: Fun with Commands" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed chapter 19: Fun with Commands" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/composer.json">
@@ -1017,7 +1027,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Command/ArticleStatsCommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="559">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#31#77#0#PHP" expanded="true" />
           </folding>
