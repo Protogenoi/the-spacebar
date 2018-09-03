@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.dist" beforeDir="false" afterPath="$PROJECT_DIR$/.env.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/the_spacebar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/the_spacebar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-    </list>
+    <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +68,7 @@
           <entry key="md" value="14" />
           <entry key="php" value="3475" />
           <entry key="twig" value="684" />
-          <entry key="txt" value="876" />
+          <entry key="txt" value="909" />
           <entry key="yaml" value="421" />
         </counts>
       </usages-collector>
@@ -90,7 +80,7 @@
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
           <entry key="PHP" value="3466" />
-          <entry key="PLAIN_TEXT" value="896" />
+          <entry key="PLAIN_TEXT" value="929" />
           <entry key="Twig" value="684" />
           <entry key="YAML" value="421" />
         </counts>
@@ -105,20 +95,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+            <state relative-caret-position="345">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -376,7 +366,7 @@
       <workItem from="1535618198697" duration="7654000" />
       <workItem from="1535731868573" duration="652000" />
       <workItem from="1535982215800" duration="42000" />
-      <workItem from="1535987902614" duration="3101000" />
+      <workItem from="1535987902614" duration="3936000" />
     </task>
     <task id="LOCAL-00001" summary="Symfony 4 push">
       <created>1534777903254</created>
@@ -637,11 +627,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535644031386</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Doctrine &amp; the Database: Completed chapter 1: Installing Doctrine">
+      <created>1535992438388</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1535992438388</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59034000" />
+    <option name="totallyTimeSpent" value="59869000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -654,7 +651,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="749" y="22" width="931" height="1028" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16310461" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -706,7 +702,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed chapter 11: JavaScript &amp; Page-Specific Assets" />
     <MESSAGE value="Completed chapter 12: JSON API Endpoint" />
     <MESSAGE value="Added composer require symfony/monolog-bundle for logging." />
     <MESSAGE value="Updated old use to Symfony\Component\Routing\Annotation\Route" />
@@ -731,7 +726,8 @@
     <MESSAGE value="Completed chapter 17: Bonus! LoggerTrait &amp; Setter Injection" />
     <MESSAGE value="Completed chapter 18: MakerBundle" />
     <MESSAGE value="Completed chapter 19: Fun with Commands" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed chapter 19: Fun with Commands" />
+    <MESSAGE value="Doctrine &amp; the Database: Completed chapter 1: Installing Doctrine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doctrine &amp; the Database: Completed chapter 1: Installing Doctrine" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/composer.json">
@@ -988,17 +984,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
