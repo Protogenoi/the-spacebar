@@ -9,6 +9,7 @@
 namespace App\Controller;
 
 use App\Entity\Article;
+use App\Repository\ArticleRepository;
 use App\Service\SlackClient;
 use Doctrine\ORM\EntityManagerInterface;
 use Psr\Log\LoggerInterface;
@@ -33,12 +34,9 @@ class ArticleController extends AbstractController
      * @Route("/", name="app_homepage")
      */
 
-    public function homepage(EntityManagerInterface $em)
+    public function homepage(ArticleRepository $repository)
     {
-
-        $repository = $em->getRepository(Article::class);
-        dump($repository);die;
-        $articles = $repository->findBy([],['publishedAt' => 'DESC']);
+        $articles = $repository->findAllPublishedOrderedByNewest();
 
         return $this->render('article/homepage.html.twig', [
             'articles' => $articles,
