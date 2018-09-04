@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/article/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article/show.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +41,7 @@
           <entry key="json" value="1" />
           <entry key="log" value="5" />
           <entry key="md" value="1" />
-          <entry key="php" value="46" />
+          <entry key="php" value="48" />
           <entry key="twig" value="16" />
           <entry key="yaml" value="30" />
         </counts>
@@ -57,7 +56,7 @@
           <entry key="JavaScript" value="1" />
           <entry key="Log" value="5" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="46" />
+          <entry key="PHP" value="48" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Twig" value="16" />
           <entry key="YAML" value="30" />
@@ -71,9 +70,9 @@
           <entry key="env" value="177" />
           <entry key="js" value="309" />
           <entry key="md" value="14" />
-          <entry key="php" value="4256" />
-          <entry key="twig" value="732" />
-          <entry key="txt" value="910" />
+          <entry key="php" value="4396" />
+          <entry key="twig" value="738" />
+          <entry key="txt" value="917" />
           <entry key="yaml" value="421" />
         </counts>
       </usages-collector>
@@ -84,9 +83,9 @@
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
-          <entry key="PHP" value="4247" />
-          <entry key="PLAIN_TEXT" value="930" />
-          <entry key="Twig" value="732" />
+          <entry key="PHP" value="4387" />
+          <entry key="PLAIN_TEXT" value="937" />
+          <entry key="Twig" value="738" />
           <entry key="YAML" value="421" />
         </counts>
       </usages-collector>
@@ -104,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="258">
-              <caret line="67" column="38" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+              <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
                 <element signature="e#118#141#0#PHP" expanded="true" />
@@ -113,11 +112,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/article/show.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            <state relative-caret-position="241">
+              <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Twig/AppExtension.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+              <folding>
+                <element signature="e#28#59#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Service/MarkdownHelper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -208,6 +228,7 @@
         <option value="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" />
         <option value="$PROJECT_DIR$/src/Controller/ArticleController.php" />
         <option value="$PROJECT_DIR$/templates/article/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/Twig/AppExtension.php" />
       </list>
     </option>
   </component>
@@ -331,24 +352,7 @@
               <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
               <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="article" type="462c0819:PsiDirectoryNode" />
+              <item name="Twig" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -405,7 +409,7 @@
       <workItem from="1535731868573" duration="652000" />
       <workItem from="1535982215800" duration="42000" />
       <workItem from="1535987902614" duration="6683000" />
-      <workItem from="1536049393834" duration="3087000" />
+      <workItem from="1536049393834" duration="4159000" />
     </task>
     <task id="LOCAL-00001" summary="Symfony 4 push">
       <created>1534777903254</created>
@@ -701,11 +705,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535995317635</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Doctrine &amp; the Database: Completed chapter 5: Querying for Data!">
+      <created>1536060835723</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1536060835723</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65703000" />
+    <option name="totallyTimeSpent" value="66775000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -770,7 +781,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed chapter 13: Services" />
     <MESSAGE value="Rotate your Log Files code https://symfony.com/doc/current/logging.html" />
     <MESSAGE value="Updated to start: Course: Symfony 4 Fundamentals: Services, Config &amp; Environments Tutorial" />
     <MESSAGE value="Added composer require knplabs/knp-markdown-bundle" />
@@ -795,10 +805,10 @@
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 2: Creating an Entity Class" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 2: Database Migrations" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 2: Saving Entities" />
-    <option name="LAST_COMMIT_MESSAGE" value="Doctrine &amp; the Database: Completed chapter 2: Saving Entities" />
+    <MESSAGE value="Doctrine &amp; the Database: Completed chapter 5: Querying for Data!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doctrine &amp; the Database: Completed chapter 5: Querying for Data!" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/code-symfony/start/tutorial/templates/article.html.twig" />
     <entry file="file://$USER_HOME$/Downloads/code-symfony-2/finish/src/Controller/ArticleController.php" />
     <entry file="file://$USER_HOME$/Downloads/code-symfony/finish/src/Controller/ArticleController.php" />
     <entry file="file://$PROJECT_DIR$/config/packages/prod/monolog.php">
@@ -918,13 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Service/MarkdownHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1074,7 +1077,7 @@
     <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
-          <caret line="67" column="38" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
           <folding>
             <element signature="e#6#89#0#PHP" expanded="true" />
             <element signature="e#118#141#0#PHP" expanded="true" />
@@ -1082,10 +1085,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Service/MarkdownHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/article/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        <state relative-caret-position="241">
+          <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Twig/AppExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <folding>
+            <element signature="e#28#59#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
