@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article/homepage.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +42,7 @@
           <entry key="json" value="1" />
           <entry key="log" value="5" />
           <entry key="md" value="1" />
-          <entry key="php" value="49" />
+          <entry key="php" value="50" />
           <entry key="twig" value="17" />
           <entry key="yaml" value="32" />
         </counts>
@@ -58,7 +57,7 @@
           <entry key="JavaScript" value="1" />
           <entry key="Log" value="5" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="49" />
+          <entry key="PHP" value="50" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Twig" value="17" />
           <entry key="YAML" value="32" />
@@ -72,9 +71,9 @@
           <entry key="env" value="177" />
           <entry key="js" value="309" />
           <entry key="md" value="14" />
-          <entry key="php" value="4697" />
+          <entry key="php" value="5110" />
           <entry key="twig" value="936" />
-          <entry key="txt" value="920" />
+          <entry key="txt" value="923" />
           <entry key="yaml" value="421" />
         </counts>
       </usages-collector>
@@ -85,8 +84,8 @@
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
-          <entry key="PHP" value="4688" />
-          <entry key="PLAIN_TEXT" value="940" />
+          <entry key="PHP" value="5101" />
+          <entry key="PLAIN_TEXT" value="943" />
           <entry key="Twig" value="936" />
           <entry key="YAML" value="421" />
         </counts>
@@ -101,26 +100,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+            <state relative-caret-position="274">
+              <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
               <folding>
                 <element signature="e#6#89#0#PHP" expanded="true" />
                 <element signature="e#118#141#0#PHP" expanded="true" />
                 <element signature="e#896#924#0#PHP" expanded="true" />
-                <element signature="e#2621#2645#0#PHP" expanded="true" />
+                <element signature="e#1799#1823#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Repository/ArticleRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="38" column="6" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+            <state relative-caret-position="319">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+              <folding>
+                <element signature="e#34#57#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/code-symfony-doctrine/finish/src/Repository/ArticleRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="634">
+              <caret line="46" column="47" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -153,6 +164,8 @@
       <find>&lt;/p&gt;</find>
       <find>$articleContent</find>
       <find>bacon</find>
+      <find>createQueryBuilder</find>
+      <find>addIsPublishedQueryBuilder</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,8 +203,8 @@
         <option value="$PROJECT_DIR$/src/Twig/AppExtension.php" />
         <option value="$PROJECT_DIR$/src/Service/MarkdownHelper.php" />
         <option value="$PROJECT_DIR$/templates/article/homepage.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/ArticleController.php" />
         <option value="$PROJECT_DIR$/src/Repository/ArticleRepository.php" />
+        <option value="$PROJECT_DIR$/src/Controller/ArticleController.php" />
       </list>
     </option>
   </component>
@@ -382,7 +395,7 @@
       <workItem from="1535731868573" duration="652000" />
       <workItem from="1535982215800" duration="42000" />
       <workItem from="1535987902614" duration="6683000" />
-      <workItem from="1536049393834" duration="7626000" />
+      <workItem from="1536049393834" duration="10370000" />
     </task>
     <task id="LOCAL-00001" summary="Symfony 4 push">
       <created>1534777903254</created>
@@ -713,11 +726,25 @@
       <option name="project" value="LOCAL" />
       <updated>1536070037442</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Doctrine &amp; the Database: Completed chapter 9: All about Entity Repositories">
+      <created>1536071083290</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1536071083290</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Doctrine &amp; the Database: Completed chapter 10: Custom Queries">
+      <created>1536072229907</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1536072229907</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70242000" />
+    <option name="totallyTimeSpent" value="72986000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -782,8 +809,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed KnpMarkdownBundle &amp; its Services" />
-    <MESSAGE value="Completed The Cache Service" />
     <MESSAGE value="Completed configuring a bundle." />
     <MESSAGE value="Completed debug:container &amp; Cache Config. Had to install backwards compatability for APCu for PHP7." />
     <MESSAGE value="Completed: Explore! Enviroments &amp; Config files and Leveraging the prod Environment" />
@@ -807,16 +832,11 @@
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 6: Fun with Twig Extensions!" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 7: ago Filter with KnpTimeBundle!" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 8: Service Subscriber: Lazy Performance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Doctrine &amp; the Database: Completed chapter 8: Service Subscriber: Lazy Performance" />
+    <MESSAGE value="Doctrine &amp; the Database: Completed chapter 9: All about Entity Repositories" />
+    <MESSAGE value="Doctrine &amp; the Database: Completed chapter 10: Custom Queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doctrine &amp; the Database: Completed chapter 10: Custom Queries" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/packages/prod/monolog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/article_show.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1104,23 +1124,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
+    <entry file="file://$USER_HOME$/Downloads/code-symfony-doctrine/finish/src/Repository/ArticleRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-            <element signature="e#118#141#0#PHP" expanded="true" />
-            <element signature="e#896#924#0#PHP" expanded="true" />
-            <element signature="e#2621#2645#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="634">
+          <caret line="46" column="47" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Repository/ArticleRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="38" column="6" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+        <state relative-caret-position="319">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+          <folding>
+            <element signature="e#34#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="50" column="61" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+            <element signature="e#118#141#0#PHP" expanded="true" />
+            <element signature="e#896#924#0#PHP" expanded="true" />
+            <element signature="e#1799#1823#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
