@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="Doctrine &amp; the Database: Completed chapter 14: Updating an Entity">
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/BaseFixtures.php" afterDir="false" />
+    <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/the_spacebar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/the_spacebar.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/BaseFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/BaseFixtures.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +49,7 @@
           <entry key="json" value="1" />
           <entry key="log" value="5" />
           <entry key="md" value="1" />
-          <entry key="php" value="59" />
+          <entry key="php" value="60" />
           <entry key="twig" value="20" />
           <entry key="yaml" value="32" />
         </counts>
@@ -65,7 +64,7 @@
           <entry key="JavaScript" value="2" />
           <entry key="Log" value="5" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="59" />
+          <entry key="PHP" value="60" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Twig" value="20" />
           <entry key="YAML" value="32" />
@@ -79,7 +78,7 @@
           <entry key="env" value="177" />
           <entry key="js" value="309" />
           <entry key="md" value="14" />
-          <entry key="php" value="5927" />
+          <entry key="php" value="6215" />
           <entry key="twig" value="1000" />
           <entry key="txt" value="926" />
           <entry key="yaml" value="421" />
@@ -92,7 +91,7 @@
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
-          <entry key="PHP" value="5918" />
+          <entry key="PHP" value="6206" />
           <entry key="PLAIN_TEXT" value="946" />
           <entry key="Twig" value="1000" />
           <entry key="YAML" value="421" />
@@ -145,8 +144,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="466">
+              <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
               <folding>
                 <element signature="e#36#59#0#PHP" expanded="true" />
               </folding>
@@ -157,11 +156,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/BaseFixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="44" column="60" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+            <state relative-caret-position="210">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding>
                 <element signature="e#121#156#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Factory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -327,6 +335,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/templating" />
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -416,14 +425,7 @@
       <workItem from="1535987902614" duration="6683000" />
       <workItem from="1536049393834" duration="12962000" />
       <workItem from="1536135641512" duration="1636000" />
-      <workItem from="1536144084442" duration="2567000" />
-    </task>
-    <task id="LOCAL-00004" summary="Added new page with wildcard for /news/">
-      <created>1534848175577</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1534848175577</updated>
+      <workItem from="1536144084442" duration="3851000" />
     </task>
     <task id="LOCAL-00005" summary="Added composer require sec-checker">
       <created>1534848604448</created>
@@ -761,11 +763,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536144979133</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Doctrine &amp; the Database: Completed chapter 14: Fixtures: Seeding Dummy Data!">
+      <created>1536147939212</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1536147939212</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79781000" />
+    <option name="totallyTimeSpent" value="81065000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -780,7 +789,7 @@
     <frame x="749" y="22" width="931" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17322835" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17322835" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -793,7 +802,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49760193" visible="true" weight="0.32905984" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49760193" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5023981" side_tool="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -830,7 +839,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Creating Services!" />
     <MESSAGE value="Completed Using Non-Standard Services: Logger Channels" />
     <MESSAGE value="Completed: services.yaml &amp; the Amazing bind" />
     <MESSAGE value="Completed: Config Parameters" />
@@ -855,16 +863,10 @@
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 11: Query Logic Re-use &amp; Shortcuts" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 12: Updating an Entity with New Fields" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 14: Updating an Entity" />
-    <option name="LAST_COMMIT_MESSAGE" value="Doctrine &amp; the Database: Completed chapter 14: Updating an Entity" />
+    <MESSAGE value="Doctrine &amp; the Database: Completed chapter 14: Fixtures: Seeding Dummy Data!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doctrine &amp; the Database: Completed chapter 14: Fixtures: Seeding Dummy Data!" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/code-symfony-fundamentals/start/src/Controller/ArticleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/knp.markdown.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1147,10 +1149,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Factory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/BaseFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="44" column="60" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+        <state relative-caret-position="210">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding>
             <element signature="e#121#156#0#PHP" expanded="true" />
           </folding>
@@ -1159,8 +1168,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="466">
+          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
           <folding>
             <element signature="e#36#59#0#PHP" expanded="true" />
           </folding>
