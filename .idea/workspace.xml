@@ -7,8 +7,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/BaseFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/BaseFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,9 +50,9 @@
           <entry key="json" value="1" />
           <entry key="log" value="5" />
           <entry key="md" value="1" />
-          <entry key="php" value="60" />
+          <entry key="php" value="61" />
           <entry key="twig" value="20" />
-          <entry key="yaml" value="32" />
+          <entry key="yaml" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -64,10 +65,10 @@
           <entry key="JavaScript" value="2" />
           <entry key="Log" value="5" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="60" />
+          <entry key="PHP" value="61" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Twig" value="20" />
-          <entry key="YAML" value="32" />
+          <entry key="YAML" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -78,10 +79,10 @@
           <entry key="env" value="177" />
           <entry key="js" value="309" />
           <entry key="md" value="14" />
-          <entry key="php" value="6215" />
+          <entry key="php" value="6285" />
           <entry key="twig" value="1000" />
-          <entry key="txt" value="926" />
-          <entry key="yaml" value="421" />
+          <entry key="txt" value="927" />
+          <entry key="yaml" value="463" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -91,10 +92,10 @@
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
-          <entry key="PHP" value="6206" />
-          <entry key="PLAIN_TEXT" value="946" />
+          <entry key="PHP" value="6276" />
+          <entry key="PLAIN_TEXT" value="947" />
           <entry key="Twig" value="1000" />
-          <entry key="YAML" value="421" />
+          <entry key="YAML" value="463" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -107,24 +108,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
-              <folding>
-                <element signature="e#6#89#0#PHP" expanded="true" />
-                <element signature="e#118#141#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="151" column="21" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
+            <state relative-caret-position="127">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+              <folding>
+                <element signature="e#30#62#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,7 +123,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/ArticleAdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
+            <state relative-caret-position="495">
               <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
               <folding>
                 <element signature="e#120#143#0#PHP" expanded="true" />
@@ -141,14 +132,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+            <state relative-caret-position="-19">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="e#36#59#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/packages/stof_doctrine_extensions.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -231,11 +231,13 @@
         <option value="$PROJECT_DIR$/src/Repository/ArticleRepository.php" />
         <option value="$PROJECT_DIR$/templates/article/homepage.html.twig" />
         <option value="$PROJECT_DIR$/templates/article/show.html.twig" />
-        <option value="$PROJECT_DIR$/src/Entity/Article.php" />
         <option value="$PROJECT_DIR$/src/Controller/ArticleController.php" />
         <option value="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/BaseFixtures.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" />
+        <option value="$USER_HOME$/Downloads/code-symfony-doctrine/finish/src/Entity/Article.php" />
+        <option value="$PROJECT_DIR$/config/packages/stof_doctrine_extensions.yaml" />
+        <option value="$PROJECT_DIR$/src/Entity/Article.php" />
       </list>
     </option>
   </component>
@@ -336,6 +338,9 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/gedmo/doctrine-extensions" />
+      <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
+      <path value="$PROJECT_DIR$/vendor/stof/doctrine-extensions-bundle" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -359,13 +364,18 @@
             <path>
               <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
               <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
               <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataFixtures" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -380,7 +390,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -425,14 +435,7 @@
       <workItem from="1535987902614" duration="6683000" />
       <workItem from="1536049393834" duration="12962000" />
       <workItem from="1536135641512" duration="1636000" />
-      <workItem from="1536144084442" duration="3851000" />
-    </task>
-    <task id="LOCAL-00005" summary="Added composer require sec-checker">
-      <created>1534848604448</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1534848604448</updated>
+      <workItem from="1536144084442" duration="5554000" />
     </task>
     <task id="LOCAL-00006" summary="Added composer require sec-checker">
       <created>1534848627217</created>
@@ -770,11 +773,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536147939212</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Doctrine &amp; the Database: Completed chapter 15: Using Faker for Seeding Data">
+      <created>1536149929678</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1536149929678</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81065000" />
+    <option name="totallyTimeSpent" value="82768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -787,7 +797,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="749" y="22" width="931" height="1028" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17322835" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -839,7 +848,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Using Non-Standard Services: Logger Channels" />
     <MESSAGE value="Completed: services.yaml &amp; the Amazing bind" />
     <MESSAGE value="Completed: Config Parameters" />
     <MESSAGE value="Completed chapter 12: Constructors for your Controller" />
@@ -864,19 +872,10 @@
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 12: Updating an Entity with New Fields" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 14: Updating an Entity" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 14: Fixtures: Seeding Dummy Data!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Doctrine &amp; the Database: Completed chapter 14: Fixtures: Seeding Dummy Data!" />
+    <MESSAGE value="Doctrine &amp; the Database: Completed chapter 15: Using Faker for Seeding Data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Doctrine &amp; the Database: Completed chapter 15: Using Faker for Seeding Data" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/packages/knp.markdown.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/routing.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
@@ -1116,37 +1115,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="151" column="21" selection-start-line="151" selection-start-column="21" selection-end-line="151" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
-          <folding>
-            <element signature="e#6#89#0#PHP" expanded="true" />
-            <element signature="e#118#141#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/code-symfony-doctrine/finish/src/DataFixtures/ArticleFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-250" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ArticleAdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-          <folding>
-            <element signature="e#120#143#0#PHP" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/fzaninotto/faker/src/Faker/Factory.php">
@@ -1166,12 +1137,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/code-symfony-doctrine/finish/src/Entity/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+            <element signature="e#118#141#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/stof_doctrine_extensions.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+        <state relative-caret-position="-19">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
             <element signature="e#36#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ArticleAdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="e#120#143#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="e#30#62#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
