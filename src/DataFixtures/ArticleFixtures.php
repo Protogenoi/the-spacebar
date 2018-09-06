@@ -62,7 +62,7 @@ EOF
             $comment1 = new Comment();
             $comment1->setAuthorName('Mike Ferengi ');
             $comment1->setContent('I ate a normal rock once. It did NOT taste like bacon!');
-            $comment1->setArticle($article);
+           // $comment1->setArticle($article);
             $manager->persist($comment1);
 
             $comment2 = new Comment();
