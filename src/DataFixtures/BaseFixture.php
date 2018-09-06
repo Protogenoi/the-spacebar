@@ -15,7 +15,7 @@ use Doctrine\Common\Persistence\ObjectManager;
 use Faker\Factory;
 use Faker\Generator;
 
-abstract class BaseFixtures extends Fixture
+abstract class BaseFixture extends Fixture
 {
 
     /** @var ObjectManager */
