@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixture.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/BaseFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/CommentFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/A0CommentFixture.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +44,7 @@
           <entry key="json" value="1" />
           <entry key="log" value="5" />
           <entry key="md" value="1" />
-          <entry key="php" value="82" />
+          <entry key="php" value="84" />
           <entry key="twig" value="21" />
           <entry key="yaml" value="35" />
         </counts>
@@ -59,7 +59,7 @@
           <entry key="JavaScript" value="2" />
           <entry key="Log" value="5" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="82" />
+          <entry key="PHP" value="84" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Twig" value="21" />
           <entry key="YAML" value="35" />
@@ -73,9 +73,9 @@
           <entry key="env" value="177" />
           <entry key="js" value="309" />
           <entry key="md" value="14" />
-          <entry key="php" value="7108" />
+          <entry key="php" value="7211" />
           <entry key="twig" value="1081" />
-          <entry key="txt" value="956" />
+          <entry key="txt" value="957" />
           <entry key="yaml" value="483" />
         </counts>
       </usages-collector>
@@ -86,8 +86,8 @@
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
-          <entry key="PHP" value="7099" />
-          <entry key="PLAIN_TEXT" value="976" />
+          <entry key="PHP" value="7202" />
+          <entry key="PLAIN_TEXT" value="977" />
           <entry key="Twig" value="1081" />
           <entry key="YAML" value="483" />
         </counts>
@@ -141,9 +141,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/BaseFixture.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="130">
+              <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
               <folding>
+                <element signature="e#6#89#0#PHP" expanded="true" />
                 <element signature="e#121#156#0#PHP" expanded="true" />
               </folding>
             </state>
@@ -151,10 +152,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DataFixtures/CommentFixture.php">
+        <entry file="file://$PROJECT_DIR$/src/DataFixtures/A0CommentFixture.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="435">
+              <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
               <folding>
                 <element signature="e#36#59#0#PHP" expanded="true" />
               </folding>
@@ -235,6 +236,7 @@
         <option value="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/CommentFixture.php" />
+        <option value="$PROJECT_DIR$/src/DataFixtures/A0CommentFixture.php" />
       </list>
     </option>
   </component>
@@ -341,9 +343,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="749" />
+    <option name="x" value="748" />
     <option name="y" value="22" />
-    <option name="width" value="931" />
+    <option name="width" value="932" />
     <option name="height" value="1028" />
   </component>
   <component name="ProjectView">
@@ -439,21 +441,7 @@
       <workItem from="1536049393834" duration="12962000" />
       <workItem from="1536135641512" duration="1636000" />
       <workItem from="1536144084442" duration="8351000" />
-      <workItem from="1536225894277" duration="7427000" />
-    </task>
-    <task id="LOCAL-00016" summary="Completed chapter 13: Services">
-      <created>1534932637121</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1534932637121</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Rotate your Log Files code https://symfony.com/doc/current/logging.html">
-      <created>1534932896409</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1534932896409</updated>
+      <workItem from="1536225894277" duration="9494000" />
     </task>
     <task id="LOCAL-00018" summary="Updated to start: Course: Symfony 4 Fundamentals: Services, Config &amp; Environments Tutorial">
       <created>1535020083548</created>
@@ -784,11 +772,25 @@
       <option name="project" value="LOCAL" />
       <updated>1536242726700</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Mastering Doctrine Relations! Completed chapter 6: Fixture References &amp; Relating Objects">
+      <created>1536245382442</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1536245382442</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Mastering Doctrine Relations! Completed chapter 6: Fixture References &amp; Relating Objects">
+      <created>1536245429529</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1536245429529</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92992000" />
+    <option name="totallyTimeSpent" value="95059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -800,10 +802,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="749" y="22" width="931" height="1028" extended-state="0" />
+    <frame x="748" y="22" width="932" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17660293" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17640449" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -853,7 +855,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed chapter 18: MakerBundle" />
     <MESSAGE value="Completed chapter 19: Fun with Commands" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 1: Installing Doctrine" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 2: Creating an Entity Class" />
@@ -878,7 +879,8 @@
     <MESSAGE value="Mastering Doctrine Relations! Completed chapter 2: Saving Relations" />
     <MESSAGE value="Mastering Doctrine Relations! Completed chapter 4: Fetching Relations" />
     <MESSAGE value="Mastering Doctrine Relations! Completed chapter 5: Owning Vs Inverse Relations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mastering Doctrine Relations! Completed chapter 5: Owning Vs Inverse Relations" />
+    <MESSAGE value="Mastering Doctrine Relations! Completed chapter 6: Fixture References &amp; Relating Objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mastering Doctrine Relations! Completed chapter 6: Fixture References &amp; Relating Objects" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Downloads/code-symfony-fundamentals/finish/config/packages/nexy_slack.yaml">
@@ -1144,35 +1146,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/code-doctrine-relations/finish/src/DataFixtures/BaseFixture.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#36#79#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/code-doctrine-relations/finish/src/DataFixtures/CommentFixture.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-end-line="32" />
-          <folding>
-            <element signature="e#36#59#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/BaseFixture.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding>
-            <element signature="e#121#156#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/ArticleFixture.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
@@ -1193,10 +1166,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/CommentFixture.php">
+    <entry file="file://$USER_HOME$/Downloads/code-doctrine-relations/finish/src/DataFixtures/CommentFixture.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-end-line="32" />
+          <folding>
+            <element signature="e#36#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/code-doctrine-relations/finish/src/DataFixtures/BaseFixture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-574">
+          <caret selection-end-line="71" />
+          <folding>
+            <element signature="e#36#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/BaseFixture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+            <element signature="e#121#156#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataFixtures/A0CommentFixture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
           <folding>
             <element signature="e#36#59#0#PHP" expanded="true" />
           </folding>
