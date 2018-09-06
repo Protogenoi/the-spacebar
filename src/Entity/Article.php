@@ -159,12 +159,12 @@ class Article
 
     public function getImagePath()
     {
-        return 'images/'.$this->getImageFilename();
+        return 'images/' . $this->getImageFilename();
     }
 
     public function incrementHeartCount(): self
     {
-        $this->heartCount = $this->heartCount +1;
+        $this->heartCount = $this->heartCount + 1;
 
         return $this;
     }
