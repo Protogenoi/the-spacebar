@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ArticleFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixture.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/article/homepage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article/homepage.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article/show.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +74,7 @@
           <entry key="md" value="14" />
           <entry key="php" value="8512" />
           <entry key="twig" value="1962" />
-          <entry key="txt" value="970" />
+          <entry key="txt" value="971" />
           <entry key="yaml" value="486" />
         </counts>
       </usages-collector>
@@ -89,7 +86,7 @@
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
           <entry key="PHP" value="8503" />
-          <entry key="PLAIN_TEXT" value="990" />
+          <entry key="PLAIN_TEXT" value="991" />
           <entry key="Twig" value="1962" />
           <entry key="YAML" value="486" />
         </counts>
@@ -132,8 +129,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/article/homepage.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+            <state relative-caret-position="188">
+              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -502,14 +499,7 @@
       <workItem from="1536135641512" duration="1636000" />
       <workItem from="1536144084442" duration="8351000" />
       <workItem from="1536225894277" duration="13636000" />
-      <workItem from="1536308132849" duration="11595000" />
-    </task>
-    <task id="LOCAL-00031" summary="Completed chapter 14: Autowiring Aliases">
-      <created>1535559725750</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1535559725750</updated>
+      <workItem from="1536308132849" duration="11678000" />
     </task>
     <task id="LOCAL-00032" summary="Completed chapter 15: Environment Variables">
       <created>1535636192259</created>
@@ -847,11 +837,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536327898746</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="Mastering Doctrine Relations! Completed chapter 18: Saving a ManyToMany Relation + Joins">
+      <created>1536329216878</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1536329216878</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110796000" />
+    <option name="totallyTimeSpent" value="110879000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -916,7 +913,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Doctrine &amp; the Database: Completed chapter 11: Query Logic Re-use &amp; Shortcuts" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 12: Updating an Entity with New Fields" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 14: Updating an Entity" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 14: Fixtures: Seeding Dummy Data!" />
@@ -941,7 +937,8 @@
     <MESSAGE value="Mastering Doctrine Relations! Completed chapter 15: Pagination" />
     <MESSAGE value="Mastering Doctrine Relations! Completed chapter 16: The 4 (2?) Possible Relation Types" />
     <MESSAGE value="Mastering Doctrine Relations! Completed chapter 17: ManyToMany Relationship" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mastering Doctrine Relations! Completed chapter 17: ManyToMany Relationship" />
+    <MESSAGE value="Mastering Doctrine Relations! Completed chapter 18: Saving a ManyToMany Relation + Joins" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mastering Doctrine Relations! Completed chapter 18: Saving a ManyToMany Relation + Joins" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Entity/.gitignore">
@@ -1261,8 +1258,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/article/homepage.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+        <state relative-caret-position="188">
+          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
         </state>
       </provider>
     </entry>
