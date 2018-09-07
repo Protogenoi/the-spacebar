@@ -29,6 +29,8 @@ class ArticleRepository extends ServiceEntityRepository
     {
 
         return $this->addIsPublishedQueryBuilder()
+            ->leftJoin('a.tags','t')
+            ->addSelect('t')
             ->andWhere('a.publishedAt IS NOT NULL')
             ->orderBy('a.publishedAt', 'DESC')
             ->getQuery()
