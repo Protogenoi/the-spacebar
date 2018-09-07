@@ -104,8 +104,14 @@
     "jdorn/sql-formatter": {
         "version": "v1.2.17"
     },
+    "knplabs/knp-components": {
+        "version": "v1.3.9"
+    },
     "knplabs/knp-markdown-bundle": {
         "version": "1.7.0"
+    },
+    "knplabs/knp-paginator-bundle": {
+        "version": "v2.8.0"
     },
     "knplabs/knp-time-bundle": {
         "version": "1.8.0"
