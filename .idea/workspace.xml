@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="Mastering Doctrine Relations! Completed chapter 16: The 4 (2?) Possible Relation Types">
+    <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/TagFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/TagFixture.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +42,7 @@
           <entry key="json" value="1" />
           <entry key="log" value="5" />
           <entry key="md" value="1" />
-          <entry key="php" value="96" />
+          <entry key="php" value="97" />
           <entry key="twig" value="32" />
           <entry key="yaml" value="38" />
         </counts>
@@ -58,7 +57,7 @@
           <entry key="JavaScript" value="2" />
           <entry key="Log" value="5" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="96" />
+          <entry key="PHP" value="97" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Twig" value="32" />
           <entry key="YAML" value="38" />
@@ -74,7 +73,7 @@
           <entry key="md" value="14" />
           <entry key="php" value="8324" />
           <entry key="twig" value="1837" />
-          <entry key="txt" value="969" />
+          <entry key="txt" value="970" />
           <entry key="yaml" value="486" />
         </counts>
       </usages-collector>
@@ -86,7 +85,7 @@
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
           <entry key="PHP" value="8315" />
-          <entry key="PLAIN_TEXT" value="989" />
+          <entry key="PLAIN_TEXT" value="990" />
           <entry key="Twig" value="1837" />
           <entry key="YAML" value="486" />
         </counts>
@@ -116,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/CommentAdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
+            <state relative-caret-position="420">
               <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
               <folding>
                 <element signature="e#34#71#0#PHP" expanded="true" />
@@ -125,16 +124,9 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Comment.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-              <folding>
-                <element signature="e#30#62#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Migrations/Version20180907133302.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -147,31 +139,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/comment_admin/index.html.twig">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Tag.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+            <state relative-caret-position="465">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding>
-                <element signature="e#12#34#0#Twig" expanded="true" />
-                <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#30#78#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Tag.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-              <folding>
-                <element signature="e#30#62#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/TagFixture.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -432,7 +411,7 @@
               <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
               <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataFixtures" type="462c0819:PsiDirectoryNode" />
+              <item name="Migrations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -493,21 +472,7 @@
       <workItem from="1536135641512" duration="1636000" />
       <workItem from="1536144084442" duration="8351000" />
       <workItem from="1536225894277" duration="13636000" />
-      <workItem from="1536308132849" duration="9401000" />
-    </task>
-    <task id="LOCAL-00028" summary="Completed: Config Parameters">
-      <created>1535117681394</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1535117681394</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Completed chapter 12: Constructors for your Controller">
-      <created>1535553294796</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1535553294796</updated>
+      <workItem from="1536308132849" duration="10342000" />
     </task>
     <task id="LOCAL-00030" summary="Completed chapter 13: Installing Bundles with &quot;Average&quot; Docs">
       <created>1535554471418</created>
@@ -838,11 +803,25 @@
       <option name="project" value="LOCAL" />
       <updated>1536326813444</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Mastering Doctrine Relations! Completed chapter 16: The 4 (2?) Possible Relation Types">
+      <created>1536326823269</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1536326823269</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Mastering Doctrine Relations! Completed chapter 17: ManyToMany Relationship">
+      <created>1536327269081</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1536327269082</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108602000" />
+    <option name="totallyTimeSpent" value="109543000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -855,7 +834,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="748" y="22" width="932" height="1028" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17977528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -907,7 +885,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Doctrine &amp; the Database: Completed chapter 10: Custom Queries" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 11: Query Logic Re-use &amp; Shortcuts" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 12: Updating an Entity with New Fields" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 14: Updating an Entity" />
@@ -932,16 +909,10 @@
     <MESSAGE value="Mastering Doctrine Relations! Completed chapter 14: Query Joins &amp; Solving the N+1 Problem" />
     <MESSAGE value="Mastering Doctrine Relations! Completed chapter 15: Pagination" />
     <MESSAGE value="Mastering Doctrine Relations! Completed chapter 16: The 4 (2?) Possible Relation Types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mastering Doctrine Relations! Completed chapter 16: The 4 (2?) Possible Relation Types" />
+    <MESSAGE value="Mastering Doctrine Relations! Completed chapter 17: ManyToMany Relationship" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mastering Doctrine Relations! Completed chapter 17: ManyToMany Relationship" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.env.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/doctrine.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1159,26 +1130,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="e#30#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/CommentAdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-          <folding>
-            <element signature="e#34#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/comment_admin/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1231,16 +1182,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Tag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="29" column="32" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="e#30#62#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/CommentFixture.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1257,6 +1198,39 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding>
+            <element signature="e#30#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding>
+            <element signature="e#30#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/CommentAdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="e#34#71#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20180907133302.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
