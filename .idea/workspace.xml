@@ -42,7 +42,7 @@
           <entry key="json" value="1" />
           <entry key="log" value="5" />
           <entry key="md" value="1" />
-          <entry key="php" value="111" />
+          <entry key="php" value="113" />
           <entry key="twig" value="34" />
           <entry key="yaml" value="38" />
         </counts>
@@ -57,7 +57,7 @@
           <entry key="JavaScript" value="2" />
           <entry key="Log" value="5" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="111" />
+          <entry key="PHP" value="113" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Twig" value="34" />
           <entry key="YAML" value="38" />
@@ -71,9 +71,9 @@
           <entry key="env" value="177" />
           <entry key="js" value="309" />
           <entry key="md" value="14" />
-          <entry key="php" value="8538" />
+          <entry key="php" value="8540" />
           <entry key="twig" value="1962" />
-          <entry key="txt" value="972" />
+          <entry key="txt" value="1063" />
           <entry key="yaml" value="486" />
         </counts>
       </usages-collector>
@@ -84,8 +84,8 @@
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
-          <entry key="PHP" value="8529" />
-          <entry key="PLAIN_TEXT" value="992" />
+          <entry key="PHP" value="8531" />
+          <entry key="PLAIN_TEXT" value="1083" />
           <entry key="Twig" value="1962" />
           <entry key="YAML" value="486" />
         </counts>
@@ -99,7 +99,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -136,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/routes.yaml" />
         <option value="$PROJECT_DIR$/templates/article/show.html.twig.html" />
         <option value="$USER_HOME$/Downloads/code-symfony/start/tutorial/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
@@ -187,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/DataFixtures/ArticleFixture.php" />
         <option value="$PROJECT_DIR$/templates/article/homepage.html.twig" />
         <option value="$PROJECT_DIR$/src/Repository/ArticleRepository.php" />
+        <option value="$PROJECT_DIR$/src/Entity/User.php" />
       </list>
     </option>
   </component>
@@ -318,6 +328,11 @@
               <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
               <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -383,28 +398,7 @@
       <workItem from="1536588775889" duration="1719000" />
       <workItem from="1536591951587" duration="254000" />
       <workItem from="1536660069055" duration="1550000" />
-      <workItem from="1536857414620" duration="291000" />
-    </task>
-    <task id="LOCAL-00034" summary="Completed chapter 17: Bonus! LoggerTrait &amp; Setter Injection">
-      <created>1535639274356</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1535639274356</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Completed chapter 18: MakerBundle">
-      <created>1535640629076</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1535640629076</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Completed chapter 19: Fun with Commands">
-      <created>1535643994981</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1535643994981</updated>
+      <workItem from="1536857414620" duration="888000" />
     </task>
     <task id="LOCAL-00037" summary="Completed chapter 19: Fun with Commands">
       <created>1535644031386</created>
@@ -728,11 +722,32 @@
       <option name="project" value="LOCAL" />
       <updated>1536331838950</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Added composer require security">
+      <created>1536857726389</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1536857726389</updated>
+    </task>
+    <task id="LOCAL-00084" summary="Symfony Security: Beautiful Authentication, Powerful Authorization Tutorial Chapter 1: Security &amp; the User Class">
+      <created>1536857949141</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1536857949141</updated>
+    </task>
+    <task id="LOCAL-00085" summary="Symfony Security: Beautiful Authentication, Powerful Authorization Tutorial Chapter 1: Security &amp; the User Class">
+      <created>1536857964024</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1536857964024</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116031000" />
+    <option name="totallyTimeSpent" value="116628000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -746,7 +761,7 @@
   <component name="ToolWindowManager">
     <frame x="866" y="24" width="814" height="1028" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23445596" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23445596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -759,7 +774,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4966292" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4966292" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50337076" side_tool="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -796,8 +811,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Doctrine &amp; the Database: Completed chapter 14: Updating an Entity" />
-    <MESSAGE value="Doctrine &amp; the Database: Completed chapter 14: Fixtures: Seeding Dummy Data!" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 15: Using Faker for Seeding Data" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 16: USluggable &amp; other Wonderful Behaviors" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 17: When Migrations Fail" />
@@ -821,10 +834,11 @@
     <MESSAGE value="Mastering Doctrine Relations! Completed chapter 17: ManyToMany Relationship" />
     <MESSAGE value="Mastering Doctrine Relations! Completed chapter 18: Saving a ManyToMany Relation + Joins" />
     <MESSAGE value="Mastering Doctrine Relations! Completed chapter 19: ManyToMany Joins &amp; When to Avoid ManyToMany" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mastering Doctrine Relations! Completed chapter 19: ManyToMany Joins &amp; When to Avoid ManyToMany" />
+    <MESSAGE value="Added composer require security" />
+    <MESSAGE value="Symfony Security: Beautiful Authentication, Powerful Authorization Tutorial Chapter 1: Security &amp; the User Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Symfony Security: Beautiful Authentication, Powerful Authorization Tutorial Chapter 1: Security &amp; the User Class" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/code-symfony-doctrine/finish/config/services.yaml" />
     <entry file="file://$PROJECT_DIR$/config/services.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1101,6 +1115,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
