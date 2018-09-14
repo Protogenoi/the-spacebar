@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="">
+    <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="Updated to match updated files from Knp University. Completed chapter 3: Customizing the User Entity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ArticleFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/CommentFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/CommentFixture.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/TagFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/TagFixture.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/UserFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/UserFixture.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,9 +72,9 @@
           <entry key="env" value="177" />
           <entry key="js" value="309" />
           <entry key="md" value="14" />
-          <entry key="php" value="8741" />
+          <entry key="php" value="8742" />
           <entry key="twig" value="1962" />
-          <entry key="txt" value="1064" />
+          <entry key="txt" value="1180" />
           <entry key="yaml" value="486" />
         </counts>
       </usages-collector>
@@ -89,8 +85,8 @@
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
-          <entry key="PHP" value="8732" />
-          <entry key="PLAIN_TEXT" value="1087" />
+          <entry key="PHP" value="8733" />
+          <entry key="PLAIN_TEXT" value="1203" />
           <entry key="Twig" value="1962" />
           <entry key="YAML" value="486" />
         </counts>
@@ -173,6 +169,11 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Michael" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -218,7 +219,6 @@
         <option value="$PROJECT_DIR$/src/Repository/ArticleRepository.php" />
         <option value="$PROJECT_DIR$/src/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/Helper/LoggerTrait.php" />
-        <option value="$PROJECT_DIR$/src/DataFixtures/UserFixture.php" />
         <option value="$PROJECT_DIR$/src/Controller/CommentAdminController.php" />
         <option value="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" />
         <option value="$PROJECT_DIR$/src/Command/ArticleStatsCommand.php" />
@@ -229,6 +229,7 @@
         <option value="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" />
         <option value="$USER_HOME$/Downloads/code-symfony-security/start/src/DataFixtures/ArticleFixtures.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/CommentFixture.php" />
+        <option value="$PROJECT_DIR$/src/DataFixtures/UserFixture.php" />
       </list>
     </option>
   </component>
@@ -460,21 +461,7 @@
       <workItem from="1536588775889" duration="1719000" />
       <workItem from="1536591951587" duration="254000" />
       <workItem from="1536660069055" duration="1550000" />
-      <workItem from="1536857414620" duration="4798000" />
-    </task>
-    <task id="LOCAL-00038" summary="Doctrine &amp; the Database: Completed chapter 1: Installing Doctrine">
-      <created>1535992438388</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1535992438388</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Doctrine &amp; the Database: Completed chapter 2: Creating an Entity Class">
-      <created>1535993262692</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1535993262692</updated>
+      <workItem from="1536857414620" duration="4935000" />
     </task>
     <task id="LOCAL-00040" summary="Doctrine &amp; the Database: Completed chapter 2: Creating an Entity Class">
       <created>1535993271399</created>
@@ -805,11 +792,25 @@
       <option name="project" value="LOCAL" />
       <updated>1536858344342</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Updated to match updated files from Knp University. Completed chapter 3: Customizing the User Entity">
+      <created>1536919153293</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1536919153293</updated>
+    </task>
+    <task id="LOCAL-00088" summary="Updated to match updated files from Knp University. Completed chapter 3: Customizing the User Entity">
+      <created>1536919226828</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1536919226828</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120538000" />
+    <option name="totallyTimeSpent" value="120675000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -822,6 +823,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="733" y="24" width="947" height="1028" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26077348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -873,7 +875,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Doctrine &amp; the Database: Completed chapter 16: USluggable &amp; other Wonderful Behaviors" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 17: When Migrations Fail" />
     <MESSAGE value="Doctrine &amp; the Database: Completed chapter 18: Activating Timestampable" />
     <MESSAGE value="Mastering Doctrine Relations! Completed chapter 1: Adding a Comment Entity" />
@@ -898,7 +899,9 @@
     <MESSAGE value="Added composer require security" />
     <MESSAGE value="Symfony Security: Beautiful Authentication, Powerful Authorization Tutorial Chapter 1: Security &amp; the User Class" />
     <MESSAGE value="Symfony Security: Beautiful Authentication, Powerful Authorization Tutorial Chapter 2: All about the User class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Symfony Security: Beautiful Authentication, Powerful Authorization Tutorial Chapter 2: All about the User class" />
+    <MESSAGE value="Updated to match updated files from Knp University. Completed chapter 3: Customizing the User Entity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to match updated files from Knp University. Completed chapter 3: Customizing the User Entity" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
