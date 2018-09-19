@@ -68,7 +68,10 @@ class LoginFormAuthenticator extends AbstractFormLoginAuthenticator
         Request $request,
         AuthenticationException $exception
     ) {
-        // todo
+        if ($request->hasSession()) {
+            $request->getSession()
+                ->set(Security::AUTHENTICATION_ERROR, $exception);
+        }
     }
 
     public function onAuthenticationSuccess(
