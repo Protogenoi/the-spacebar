@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,17 +19,18 @@
     <session id="674753202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
+          <entry key="project.closed" value="35" />
           <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.1" value="14" />
+          <entry key="project.open.time.1" value="16" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -44,9 +45,9 @@
           <entry key="json" value="1" />
           <entry key="log" value="5" />
           <entry key="md" value="2" />
-          <entry key="php" value="193" />
+          <entry key="php" value="194" />
           <entry key="twig" value="42" />
-          <entry key="yaml" value="42" />
+          <entry key="yaml" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -59,10 +60,10 @@
           <entry key="JavaScript" value="2" />
           <entry key="Log" value="5" />
           <entry key="Markdown" value="2" />
-          <entry key="PHP" value="193" />
+          <entry key="PHP" value="194" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Twig" value="42" />
-          <entry key="YAML" value="42" />
+          <entry key="YAML" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -74,9 +75,9 @@
           <entry key="js" value="309" />
           <entry key="md" value="14" />
           <entry key="php" value="9768" />
-          <entry key="twig" value="2189" />
-          <entry key="txt" value="1264" />
-          <entry key="yaml" value="711" />
+          <entry key="twig" value="2212" />
+          <entry key="txt" value="1266" />
+          <entry key="yaml" value="790" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -87,9 +88,9 @@
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
           <entry key="PHP" value="9759" />
-          <entry key="PLAIN_TEXT" value="1287" />
-          <entry key="Twig" value="2189" />
-          <entry key="YAML" value="711" />
+          <entry key="PLAIN_TEXT" value="1289" />
+          <entry key="Twig" value="2212" />
+          <entry key="YAML" value="790" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -103,34 +104,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
+        <entry file="file://$PROJECT_DIR$/templates/security/login.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-              <folding>
-                <element signature="e#34#99#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="328">
+              <caret line="32" column="57" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php">
+        <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-              <folding>
-                <element signature="e#32#66#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/security/login.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="360">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -165,6 +151,7 @@
       <find>$em</find>
       <find>&lt;div class=&quot;alert alert-danger&quot;&gt;{{ error.messageKey|trans(error.messageData, 'security') }}&lt;/div&gt;</find>
       <find>onAuthenticationFailure</find>
+      <find>_remember_me</find>
     </findStrings>
     <replaceStrings>
       <replace>2</replace>
@@ -230,9 +217,9 @@
         <option value="$PROJECT_DIR$/templates/comment_admin/index.html.twig" />
         <option value="$PROJECT_DIR$/translations/security.en.yaml" />
         <option value="$PROJECT_DIR$/src/Controller/SecurityController.php" />
-        <option value="$PROJECT_DIR$/config/packages/security.yaml" />
-        <option value="$PROJECT_DIR$/templates/security/login.html.twig" />
         <option value="$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php" />
+        <option value="$PROJECT_DIR$/templates/security/login.html.twig" />
+        <option value="$PROJECT_DIR$/config/packages/security.yaml" />
       </list>
     </option>
   </component>
@@ -356,6 +343,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -374,22 +362,10 @@
               <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="packages" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -461,14 +437,10 @@
       <workItem from="1537377374126" duration="1482000" />
       <workItem from="1537436005847" duration="910000" />
       <workItem from="1537444115526" duration="1503000" />
-      <workItem from="1537526703540" duration="542000" />
-    </task>
-    <task id="LOCAL-00048" summary="Doctrine &amp; the Database: Completed chapter 9: All about Entity Repositories">
-      <created>1536071083290</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1536071083290</updated>
+      <workItem from="1537526703540" duration="1236000" />
+      <workItem from="1537537490929" duration="572000" />
+      <workItem from="1537778202483" duration="13000" />
+      <workItem from="1537786907237" duration="3458000" />
     </task>
     <task id="LOCAL-00049" summary="Doctrine &amp; the Database: Completed chapter 10: Custom Queries">
       <created>1536072229907</created>
@@ -806,11 +778,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537445323134</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Completed chapter 10: CSRF Protection">
+      <created>1537527382273</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1537527382273</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135490000" />
+    <option name="totallyTimeSpent" value="140227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -825,7 +804,7 @@
     <frame x="767" y="22" width="913" height="1028" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21928817" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23306544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -838,7 +817,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4966292" weight="0.32905984" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4966292" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50337076" side_tool="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -875,7 +854,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Mastering Doctrine Relations! Completed chapter 6: Fixture References &amp; Relating Objects" />
     <MESSAGE value="Mastering Doctrine Relations! Completed chapter 7: Awesome Random Fixtures" />
     <MESSAGE value="Mastering Doctrine Relations! Completed chapter 8: OrderBy &amp; fetch EXTRA_LAZY" />
     <MESSAGE value="Mastering Doctrine Relations! Completed chapter 9: Giving the Comments an isDeleted Flag" />
@@ -900,7 +878,8 @@
     <MESSAGE value="Completed chapter 8: Authentication Errors" />
     <MESSAGE value="Completed chapter 8: Authentication Errors (added missing code for on authentication failure)." />
     <MESSAGE value="Completed chapter 9: Customizing Errors &amp; Logout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed chapter 9: Customizing Errors &amp; Logout" />
+    <MESSAGE value="Completed chapter 10: CSRF Protection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed chapter 10: CSRF Protection" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -976,13 +955,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/code-doctrine-relations/finish/src/DataFixtures/ArticleFixtures.php" />
-    <entry file="file://$PROJECT_DIR$/src/Repository/ArticleRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env.dist">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1132,37 +1104,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding>
-            <element signature="e#34#99#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        <state relative-caret-position="-908">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding>
             <element signature="e#32#66#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/ArticleRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="32" column="57" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
         </state>
       </provider>
     </entry>
