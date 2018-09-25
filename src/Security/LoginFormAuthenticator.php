@@ -104,11 +104,6 @@ class LoginFormAuthenticator extends AbstractFormLoginAuthenticator
         // todo
     }
 
-    public function supportsRememberMe()
-    {
-        // todo
-    }
-
     protected function getLoginUrl()
     {
         return $this->router->generate('app_login');
