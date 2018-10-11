@@ -21,6 +21,7 @@
         "symfony/monolog-bundle": "^3.3",
         "symfony/orm-pack": "^1.0",
         "symfony/security-bundle": "^4.1",
+      "symfony/serializer-pack": "^1.0",
         "symfony/twig-bundle": "^4.1",
         "symfony/web-server-bundle": "^4.1",
         "symfony/yaml": "^4.1",
