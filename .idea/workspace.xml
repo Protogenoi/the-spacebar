@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="Completed chapter 26: Entry Point: Helping Users Authenticate">
+    <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/ApiToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/ApiToken.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Security/ApiTokenAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/ApiTokenAuthenticator.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,9 +76,9 @@
           <entry key="env" value="177" />
           <entry key="js" value="309" />
           <entry key="md" value="14" />
-          <entry key="php" value="11361" />
+          <entry key="php" value="11637" />
           <entry key="twig" value="2698" />
-          <entry key="txt" value="1423" />
+          <entry key="txt" value="1424" />
           <entry key="yaml" value="1192" />
         </counts>
       </usages-collector>
@@ -89,8 +89,8 @@
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
-          <entry key="PHP" value="11352" />
-          <entry key="PLAIN_TEXT" value="1446" />
+          <entry key="PHP" value="11628" />
+          <entry key="PLAIN_TEXT" value="1447" />
           <entry key="Twig" value="2698" />
           <entry key="YAML" value="1192" />
         </counts>
@@ -132,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/ApiToken.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+            <state relative-caret-position="489">
+              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -141,8 +141,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Security/ApiTokenAuthenticator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+            <state relative-caret-position="374">
+              <caret line="84" column="29" lean-forward="true" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
               <folding>
                 <element signature="e#32#70#0#PHP" expanded="true" />
               </folding>
@@ -256,10 +256,10 @@
         <option value="$PROJECT_DIR$/src/Controller/CommentAdminController.php" />
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/src/Entity/User.php" />
-        <option value="$PROJECT_DIR$/src/Entity/ApiToken.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/UserFixture.php" />
         <option value="$PROJECT_DIR$/config/packages/security.yaml" />
         <option value="$PROJECT_DIR$/src/Controller/AccountController.php" />
+        <option value="$PROJECT_DIR$/src/Entity/ApiToken.php" />
         <option value="$PROJECT_DIR$/src/Security/ApiTokenAuthenticator.php" />
       </list>
     </option>
@@ -407,6 +407,12 @@
               <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
               <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Security" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -512,14 +518,7 @@
       <workItem from="1539871062576" duration="27000" />
       <workItem from="1540198723895" duration="133000" />
       <workItem from="1540199057169" duration="43000" />
-      <workItem from="1540199180688" duration="1388000" />
-    </task>
-    <task id="LOCAL-00064" summary="Mastering Doctrine Relations! Completed chapter 5: Owning Vs Inverse Relations">
-      <created>1536242726700</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1536242726700</updated>
+      <workItem from="1540199180688" duration="2839000" />
     </task>
     <task id="LOCAL-00065" summary="Mastering Doctrine Relations! Completed chapter 6: Fixture References &amp; Relating Objects">
       <created>1536245382442</created>
@@ -857,11 +856,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539690061589</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="Completed chapter 27: API Token Authenticator">
+      <created>1540201704938</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1540201704939</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169576000" />
+    <option name="totallyTimeSpent" value="171027000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -876,7 +882,7 @@
     <frame x="808" y="23" width="872" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26626506" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26626506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -889,7 +895,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4954023" visible="true" weight="0.32834226" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4954023" visible="true" weight="0.32834226" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5045977" side_tool="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -926,7 +932,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Symfony Security: Beautiful Authentication, Powerful Authorization Tutorial Chapter 2: All about the User class" />
     <MESSAGE value="Updated to match updated files from Knp University. Completed chapter 3: Customizing the User Entity" />
     <MESSAGE value="Updated to match updated files from Knp University. Completed chapter 4: The Login Form" />
     <MESSAGE value="Completed chapter 5: Firewalls &amp; Authenticator" />
@@ -951,7 +956,8 @@
     <MESSAGE value="Completed chapter 23: Serializer &amp; API Endpoint" />
     <MESSAGE value="Completed chapter 25: ApiToken Entity" />
     <MESSAGE value="Completed chapter 26: Entry Point: Helping Users Authenticate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed chapter 26: Entry Point: Helping Users Authenticate" />
+    <MESSAGE value="Completed chapter 27: API Token Authenticator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed chapter 27: API Token Authenticator" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1191,13 +1197,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/ApiToken.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1205,10 +1204,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/ApiToken.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Security/ApiTokenAuthenticator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        <state relative-caret-position="374">
+          <caret line="84" column="29" lean-forward="true" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
           <folding>
             <element signature="e#32#70#0#PHP" expanded="true" />
           </folding>
