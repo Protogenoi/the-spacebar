@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +19,8 @@
     <session id="674753202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="59" />
-          <entry key="project.open.time.0" value="5" />
+          <entry key="project.closed" value="60" />
+          <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="34" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -33,7 +32,7 @@
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="61" />
+          <entry key="project.opened" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -48,7 +47,7 @@
           <entry key="json" value="1" />
           <entry key="log" value="5" />
           <entry key="md" value="2" />
-          <entry key="php" value="234" />
+          <entry key="php" value="236" />
           <entry key="twig" value="53" />
           <entry key="yaml" value="47" />
         </counts>
@@ -63,7 +62,7 @@
           <entry key="JavaScript" value="2" />
           <entry key="Log" value="5" />
           <entry key="Markdown" value="2" />
-          <entry key="PHP" value="234" />
+          <entry key="PHP" value="236" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Twig" value="53" />
           <entry key="YAML" value="47" />
@@ -77,9 +76,9 @@
           <entry key="env" value="177" />
           <entry key="js" value="309" />
           <entry key="md" value="14" />
-          <entry key="php" value="12219" />
+          <entry key="php" value="12336" />
           <entry key="twig" value="2812" />
-          <entry key="txt" value="1427" />
+          <entry key="txt" value="1429" />
           <entry key="yaml" value="1192" />
         </counts>
       </usages-collector>
@@ -90,8 +89,8 @@
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
-          <entry key="PHP" value="12210" />
-          <entry key="PLAIN_TEXT" value="1450" />
+          <entry key="PHP" value="12327" />
+          <entry key="PLAIN_TEXT" value="1452" />
           <entry key="Twig" value="2812" />
           <entry key="YAML" value="1192" />
         </counts>
@@ -109,19 +108,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
+            <state relative-caret-position="1875">
               <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="59" column="72" selection-start-line="59" selection-start-column="72" selection-end-line="59" selection-end-column="72" />
+            <state relative-caret-position="723">
+              <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
               <folding>
                 <element signature="e#36#59#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="768">
+              <caret line="245" column="5" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
+              <folding>
+                <element signature="e#31#79#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controller/ArticleAdminController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+              <folding>
+                <element signature="e#118#141#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -216,9 +239,7 @@
         <option value="$PROJECT_DIR$/src/Controller/BaseController.php" />
         <option value="$PROJECT_DIR$/templates/account/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Service/MarkdownHelper.php" />
-        <option value="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" />
         <option value="$PROJECT_DIR$/src/Controller/CommentAdminController.php" />
-        <option value="$PROJECT_DIR$/src/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/UserFixture.php" />
         <option value="$PROJECT_DIR$/config/packages/security.yaml" />
         <option value="$PROJECT_DIR$/src/Controller/AccountController.php" />
@@ -229,6 +250,8 @@
         <option value="$PROJECT_DIR$/src/Controller/SecurityController.php" />
         <option value="$PROJECT_DIR$/src/Entity/Article.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" />
+        <option value="$PROJECT_DIR$/src/Entity/User.php" />
+        <option value="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" />
       </list>
     </option>
   </component>
@@ -349,9 +372,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="808" />
+    <option name="x" value="758" />
     <option name="y" value="23" />
-    <option name="width" value="872" />
+    <option name="width" value="922" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
@@ -359,7 +382,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -376,7 +398,13 @@
               <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
               <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DataFixtures" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
@@ -393,6 +421,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -492,14 +521,8 @@
       <workItem from="1540198723895" duration="133000" />
       <workItem from="1540199057169" duration="43000" />
       <workItem from="1540199180688" duration="4686000" />
-      <workItem from="1540216256597" duration="1259000" />
-    </task>
-    <task id="LOCAL-00067" summary="Mastering Doctrine Relations! Completed chapter 7: Awesome Random Fixtures">
-      <created>1536248648940</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1536248648940</updated>
+      <workItem from="1540216256597" duration="2551000" />
+      <workItem from="1540375238130" duration="1680000" />
     </task>
     <task id="LOCAL-00068" summary="Mastering Doctrine Relations! Completed chapter 8: OrderBy &amp; fetch EXTRA_LAZY">
       <created>1536249890107</created>
@@ -837,11 +860,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540206175888</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="Completed chapter 30: Author ManyToOne Relation to User">
+      <created>1540218471363</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1540218471363</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174133000" />
+    <option name="totallyTimeSpent" value="177105000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -853,10 +883,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="808" y="23" width="872" height="1027" extended-state="0" />
+    <frame x="758" y="23" width="922" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27228916" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18863636" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -869,7 +899,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4954023" visible="true" weight="0.32834226" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4954023" visible="true" weight="0.32834226" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5045977" side_tool="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -906,7 +936,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed chapter 5: Firewalls &amp; Authenticator" />
     <MESSAGE value="Completed chapter 6: Login Form Authenticator" />
     <MESSAGE value="Completed chapter 7: Redirecting on Success &amp; the User Provider" />
     <MESSAGE value="Completed chapter 8: Authentication Errors" />
@@ -931,7 +960,8 @@
     <MESSAGE value="Completed chapter 27: API Token Authenticator" />
     <MESSAGE value="Completed chapter 28: API Token Authenticator Part 2!" />
     <MESSAGE value="Completed chapter 29: Manual Authentication / Registration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed chapter 29: Manual Authentication / Registration" />
+    <MESSAGE value="Completed chapter 30: Author ManyToOne Relation to User" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed chapter 30: Author ManyToOne Relation to User" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1049,13 +1079,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ArticleAdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/account/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1067,16 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#31#79#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1098,9 +1111,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
-          <folding>
-            <element signature="e#34#62#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1118,9 +1128,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1185">
           <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
-          <folding>
-            <element signature="e#32#70#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1163,9 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="485">
           <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-          <folding>
-            <element signature="e#34#54#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1176,21 +1180,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20181022142106.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20181022142106.php" />
     <entry file="file://$PROJECT_DIR$/src/Migrations/Version20181022141928.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Migrations/Version20181022142217.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/BaseFixture.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1199,12 +1194,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="59" column="72" selection-start-line="59" selection-start-column="72" selection-end-line="59" selection-end-column="72" />
+        <state relative-caret-position="723">
+          <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
           <folding>
             <element signature="e#36#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="245" column="5" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
+          <folding>
+            <element signature="e#31#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ArticleAdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <folding>
+            <element signature="e#118#141#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
