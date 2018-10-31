@@ -18,9 +18,9 @@
     <session id="674753202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="61" />
+          <entry key="project.closed" value="62" />
           <entry key="project.open.time.0" value="6" />
-          <entry key="project.open.time.1" value="35" />
+          <entry key="project.open.time.1" value="36" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -31,7 +31,7 @@
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="63" />
+          <entry key="project.opened" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -46,7 +46,7 @@
           <entry key="json" value="1" />
           <entry key="log" value="5" />
           <entry key="md" value="2" />
-          <entry key="php" value="236" />
+          <entry key="php" value="237" />
           <entry key="twig" value="53" />
           <entry key="yaml" value="48" />
         </counts>
@@ -61,7 +61,7 @@
           <entry key="JavaScript" value="2" />
           <entry key="Log" value="5" />
           <entry key="Markdown" value="2" />
-          <entry key="PHP" value="236" />
+          <entry key="PHP" value="237" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Twig" value="53" />
           <entry key="YAML" value="48" />
@@ -75,9 +75,9 @@
           <entry key="env" value="177" />
           <entry key="js" value="309" />
           <entry key="md" value="14" />
-          <entry key="php" value="12336" />
+          <entry key="php" value="12575" />
           <entry key="twig" value="2812" />
-          <entry key="txt" value="1430" />
+          <entry key="txt" value="1437" />
           <entry key="yaml" value="1192" />
         </counts>
       </usages-collector>
@@ -88,8 +88,8 @@
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
-          <entry key="PHP" value="12327" />
-          <entry key="PLAIN_TEXT" value="1453" />
+          <entry key="PHP" value="12566" />
+          <entry key="PLAIN_TEXT" value="1460" />
           <entry key="Twig" value="2812" />
           <entry key="YAML" value="1192" />
         </counts>
@@ -116,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
+            <state relative-caret-position="1065">
               <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
               <folding>
                 <element signature="e#36#59#0#PHP" expanded="true" />
@@ -128,7 +128,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3675">
+            <state relative-caret-position="3615">
               <caret line="245" column="5" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
               <folding>
                 <element signature="e#31#79#0#PHP" expanded="true" />
@@ -141,7 +141,7 @@
         <entry file="file://$PROJECT_DIR$/src/Controller/ArticleAdminController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
-              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="e#118#141#0#PHP" expanded="true" />
               </folding>
@@ -150,9 +150,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Security/Voter/ArticleVoter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+              <folding>
+                <element signature="e#38#61#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
+            <state relative-caret-position="405">
               <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
             </state>
           </provider>
@@ -209,7 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/packages/doctrine.yaml" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/services.yaml" />
         <option value="$PROJECT_DIR$/src/Twig/AppExtension.php" />
@@ -259,6 +270,7 @@
         <option value="$PROJECT_DIR$/src/Entity/Article.php" />
         <option value="$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php" />
         <option value="$PROJECT_DIR$/src/Entity/User.php" />
+        <option value="$PROJECT_DIR$/src/Security/Voter/ArticleVoter.php" />
         <option value="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" />
       </list>
     </option>
@@ -390,7 +402,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -401,13 +412,20 @@
             <path>
               <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
               <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
               <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Security" type="462c0819:PsiDirectoryNode" />
+              <item name="Voter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
@@ -424,6 +442,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -525,14 +544,8 @@
       <workItem from="1540199180688" duration="4686000" />
       <workItem from="1540216256597" duration="2551000" />
       <workItem from="1540375238130" duration="2729000" />
-      <workItem from="1540382406094" duration="259000" />
-    </task>
-    <task id="LOCAL-00069" summary="Mastering Doctrine Relations! Completed chapter 9: Giving the Comments an isDeleted Flag">
-      <created>1536252143401</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1536252143401</updated>
+      <workItem from="1540382406094" duration="283000" />
+      <workItem from="1540989485044" duration="1150000" />
     </task>
     <task id="LOCAL-00070" summary="Mastering Doctrine Relations! Completed chapter 10: Collection Magic with Criteria">
       <created>1536253920487</created>
@@ -870,11 +883,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540376937208</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Completed chapter 32: Voters">
+      <created>1540382704439</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1540382704440</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178413000" />
+    <option name="totallyTimeSpent" value="179587000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -889,7 +909,7 @@
     <frame x="758" y="23" width="922" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19204545" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19659092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -902,7 +922,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4954023" visible="true" weight="0.32834226" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4954023" visible="true" weight="0.32834226" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5045977" side_tool="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -939,7 +959,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed chapter 7: Redirecting on Success &amp; the User Provider" />
     <MESSAGE value="Completed chapter 8: Authentication Errors" />
     <MESSAGE value="Completed chapter 8: Authentication Errors (added missing code for on authentication failure)." />
     <MESSAGE value="Completed chapter 9: Customizing Errors &amp; Logout" />
@@ -964,7 +983,8 @@
     <MESSAGE value="Completed chapter 29: Manual Authentication / Registration" />
     <MESSAGE value="Completed chapter 30: Author ManyToOne Relation to User" />
     <MESSAGE value="Completed chapter 31: Article Admin &amp; Low-Level Access Controls" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed chapter 31: Article Admin &amp; Low-Level Access Controls" />
+    <MESSAGE value="Completed chapter 32: Voters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed chapter 32: Voters" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -979,7 +999,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/code-symfony-security/start/src/Command/ArticleStatsCommand.php" />
     <entry file="file://$USER_HOME$/Downloads/code-symfony-security/start/src/Controller/ArticleAdminController.php" />
     <entry file="file://$USER_HOME$/Downloads/code-symfony-security/start/src/Controller/CommentAdminController.php" />
     <entry file="file://$USER_HOME$/Downloads/code-symfony-security/start/src/Helper/LoggerTrait.php" />
@@ -1196,7 +1215,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/ArticleFixtures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
+        <state relative-caret-position="1065">
           <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
           <folding>
             <element signature="e#36#59#0#PHP" expanded="true" />
@@ -1206,7 +1225,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3675">
+        <state relative-caret-position="3615">
           <caret line="245" column="5" selection-start-line="245" selection-start-column="5" selection-end-line="245" selection-end-column="5" />
           <folding>
             <element signature="e#31#79#0#PHP" expanded="true" />
@@ -1216,15 +1235,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
+        <state relative-caret-position="405">
           <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Security/Voter/ArticleVoter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+          <folding>
+            <element signature="e#38#61#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/ArticleAdminController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
-          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="e#118#141#0#PHP" expanded="true" />
           </folding>
