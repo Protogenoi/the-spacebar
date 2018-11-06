@@ -18,9 +18,9 @@
     <session id="674753202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="64" />
-          <entry key="project.open.time.0" value="6" />
-          <entry key="project.open.time.1" value="38" />
+          <entry key="project.closed" value="66" />
+          <entry key="project.open.time.0" value="7" />
+          <entry key="project.open.time.1" value="39" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -31,7 +31,7 @@
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="66" />
+          <entry key="project.opened" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,9 +75,9 @@
           <entry key="env" value="177" />
           <entry key="js" value="309" />
           <entry key="md" value="14" />
-          <entry key="php" value="13124" />
+          <entry key="php" value="13322" />
           <entry key="twig" value="3156" />
-          <entry key="txt" value="1485" />
+          <entry key="txt" value="1487" />
           <entry key="yaml" value="1239" />
         </counts>
       </usages-collector>
@@ -88,8 +88,8 @@
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
-          <entry key="PHP" value="13115" />
-          <entry key="PLAIN_TEXT" value="1508" />
+          <entry key="PHP" value="13313" />
+          <entry key="PLAIN_TEXT" value="1510" />
           <entry key="Twig" value="3156" />
           <entry key="YAML" value="1239" />
         </counts>
@@ -107,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2671">
+            <state relative-caret-position="3555">
               <caret line="243" column="27" selection-start-line="243" selection-start-column="23" selection-end-line="243" selection-end-column="27" />
             </state>
           </provider>
@@ -116,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/ArticleAdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
+            <state relative-caret-position="375">
               <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
               <folding>
                 <element signature="e#118#141#0#PHP" expanded="true" />
@@ -137,8 +137,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Form/ArticleFormType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+            <state relative-caret-position="390">
+              <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
               <folding>
                 <element signature="e#29#52#0#PHP" expanded="true" />
               </folding>
@@ -374,7 +374,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="824" />
-    <option name="y" value="25" />
+    <option name="y" value="23" />
     <option name="width" value="856" />
     <option name="height" value="1027" />
   </component>
@@ -521,21 +521,9 @@
       <workItem from="1540382406094" duration="283000" />
       <workItem from="1540989485044" duration="1251000" />
       <workItem from="1541092915097" duration="8009000" />
-      <workItem from="1541157492649" duration="5956000" />
-    </task>
-    <task id="LOCAL-00075" summary="Mastering Doctrine Relations! Completed chapter 15: Pagination">
-      <created>1536322858088</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1536322858089</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Mastering Doctrine Relations! Completed chapter 16: The 4 (2?) Possible Relation Types">
-      <created>1536326813444</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1536326813444</updated>
+      <workItem from="1541157492649" duration="6591000" />
+      <workItem from="1541432528756" duration="11000" />
+      <workItem from="1541432763966" duration="1099000" />
     </task>
     <task id="LOCAL-00077" summary="Mastering Doctrine Relations! Completed chapter 16: The 4 (2?) Possible Relation Types">
       <created>1536326823269</created>
@@ -866,11 +854,25 @@
       <option name="project" value="LOCAL" />
       <updated>1541156769637</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Symfony 4 Forms: Build, Render &amp; Conquer!: Completed chapter 5: Field Types &amp; Options">
+      <created>1541431054072</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1541431054072</updated>
+    </task>
+    <task id="LOCAL-00125" summary="Symfony 4 Forms: Build, Render &amp; Conquer!: Completed chapter 6: DateTimeType &amp; Data &quot;Transforming&quot;">
+      <created>1541431571602</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1541431571602</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193653000" />
+    <option name="totallyTimeSpent" value="195398000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -882,10 +884,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="824" y="25" width="856" height="1027" extended-state="0" />
+    <frame x="824" y="23" width="856" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22235872" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23218673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -935,8 +937,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed supportsRememberMe to make remember me work." />
-    <MESSAGE value="Completed chapter 12: Adding &amp; Checking the User's Password" />
     <MESSAGE value="Completed chapter 13: access_control Authorization &amp; Roles" />
     <MESSAGE value="Completed chapter 14: Target Path: Redirecting an Anonymous User" />
     <MESSAGE value="Completed chapter 15 and 16: Deny Access in the Controller and Dynamic Roles." />
@@ -960,7 +960,9 @@
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Completed chapter 2: Handling the Form Submit" />
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Completed chapter 3: Success (Flash) Messages" />
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Completed chapter 4: Bind Your Form to a Class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Symfony 4 Forms: Build, Render &amp; Conquer!: Completed chapter 4: Bind Your Form to a Class" />
+    <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Completed chapter 5: Field Types &amp; Options" />
+    <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Completed chapter 6: DateTimeType &amp; Data &quot;Transforming&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Symfony 4 Forms: Build, Render &amp; Conquer!: Completed chapter 6: DateTimeType &amp; Data &quot;Transforming&quot;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1143,9 +1145,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding>
-            <element signature="e#12#34#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1174,9 +1173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="e#34#62#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1198,9 +1194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="51" column="23" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
-          <folding>
-            <element signature="e#120#163#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1208,9 +1201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="e#36#60#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1231,13 +1221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/article_admin/new.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1842">
@@ -1248,9 +1231,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3555">
+          <caret line="243" column="27" selection-start-line="243" selection-start-column="23" selection-end-line="243" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/ArticleAdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="375">
           <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
           <folding>
             <element signature="e#118#141#0#PHP" expanded="true" />
@@ -1258,17 +1248,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
+    <entry file="file://$PROJECT_DIR$/templates/article_admin/new.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2671">
-          <caret line="243" column="27" selection-start-line="243" selection-start-column="23" selection-end-line="243" selection-end-column="27" />
+        <state relative-caret-position="210">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Form/ArticleFormType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+        <state relative-caret-position="390">
+          <caret line="28" column="73" selection-start-line="28" selection-start-column="73" selection-end-line="28" selection-end-column="73" />
           <folding>
             <element signature="e#29#52#0#PHP" expanded="true" />
           </folding>
