@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/security/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/register.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +47,7 @@
           <entry key="json" value="1" />
           <entry key="log" value="5" />
           <entry key="md" value="2" />
-          <entry key="php" value="253" />
+          <entry key="php" value="254" />
           <entry key="twig" value="62" />
           <entry key="yaml" value="50" />
         </counts>
@@ -64,7 +62,7 @@
           <entry key="JavaScript" value="2" />
           <entry key="Log" value="5" />
           <entry key="Markdown" value="2" />
-          <entry key="PHP" value="253" />
+          <entry key="PHP" value="254" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Twig" value="62" />
           <entry key="YAML" value="50" />
@@ -78,9 +76,9 @@
           <entry key="env" value="177" />
           <entry key="js" value="309" />
           <entry key="md" value="14" />
-          <entry key="php" value="14079" />
+          <entry key="php" value="14368" />
           <entry key="twig" value="3361" />
-          <entry key="txt" value="1506" />
+          <entry key="txt" value="1508" />
           <entry key="yaml" value="1239" />
         </counts>
       </usages-collector>
@@ -91,8 +89,8 @@
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
-          <entry key="PHP" value="14070" />
-          <entry key="PLAIN_TEXT" value="1529" />
+          <entry key="PHP" value="14359" />
+          <entry key="PLAIN_TEXT" value="1531" />
           <entry key="Twig" value="3361" />
           <entry key="YAML" value="1239" />
         </counts>
@@ -110,32 +108,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="81" column="29" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="29" />
+            <state relative-caret-position="285">
+              <caret line="65" column="49" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
               <folding>
-                <element signature="e#2253#2282#1#PHP" expanded="true" />
+                <element signature="e#2287#2316#0#PHP" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/security/register.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+        <entry file="file://$PROJECT_DIR$/templates/security/register.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
-              <folding>
-                <element signature="e#31#79#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -143,8 +129,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Form/UserRegistrationFormType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="210">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+              <folding>
+                <element signature="e#31#79#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -249,9 +247,9 @@
         <option value="$PROJECT_DIR$/templates/article_admin/edit.html.twig" />
         <option value="$PROJECT_DIR$/templates/article_admin/new.html.twig" />
         <option value="$PROJECT_DIR$/templates/article_admin/list.html.twig" />
-        <option value="$PROJECT_DIR$/src/Form/UserRegistrationFormType.php" />
-        <option value="$PROJECT_DIR$/src/Controller/SecurityController.php" />
         <option value="$PROJECT_DIR$/templates/security/register.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/SecurityController.php" />
+        <option value="$PROJECT_DIR$/src/Form/UserRegistrationFormType.php" />
         <option value="$PROJECT_DIR$/src/Entity/User.php" />
       </list>
     </option>
@@ -526,21 +524,7 @@
       <workItem from="1541773456659" duration="886000" />
       <workItem from="1542103545421" duration="1164000" />
       <workItem from="1542123994110" duration="631000" />
-      <workItem from="1542642907010" duration="1986000" />
-    </task>
-    <task id="LOCAL-00084" summary="Symfony Security: Beautiful Authentication, Powerful Authorization Tutorial Chapter 1: Security &amp; the User Class">
-      <created>1536857949141</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1536857949141</updated>
-    </task>
-    <task id="LOCAL-00085" summary="Symfony Security: Beautiful Authentication, Powerful Authorization Tutorial Chapter 1: Security &amp; the User Class">
-      <created>1536857964024</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1536857964024</updated>
+      <workItem from="1542642907010" duration="4020000" />
     </task>
     <task id="LOCAL-00086" summary="Symfony Security: Beautiful Authentication, Powerful Authorization Tutorial Chapter 2: All about the User class">
       <created>1536858344342</created>
@@ -871,11 +855,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542893763536</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 14: Registration Form">
+      <created>1542895897879</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1542895897879</updated>
+    </task>
+    <task id="LOCAL-00134" summary="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 15: Adding Extra &quot;Unmapped&quot; Fields">
+      <created>1542900845007</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1542900845008</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202459000" />
+    <option name="totallyTimeSpent" value="204493000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -890,7 +888,7 @@
     <frame x="824" y="23" width="856" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26044226" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26044226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -903,7 +901,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4954023" visible="true" weight="0.32834226" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4954023" visible="true" weight="0.32834226" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5045977" side_tool="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -940,8 +938,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed chapter 21: Role Hierarchy" />
-    <MESSAGE value="Completed chapter 22: Impersonation (switch_user)" />
     <MESSAGE value="Completed chapter 23: Serializer &amp; API Endpoint" />
     <MESSAGE value="Completed chapter 25: ApiToken Entity" />
     <MESSAGE value="Completed chapter 26: Entry Point: Helping Users Authenticate" />
@@ -965,7 +961,9 @@
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 11: Form Rendering Functions: form_*" />
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 12: Form Rendering Variables" />
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 13: The Edit Form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 13: The Edit Form" />
+    <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 14: Registration Form" />
+    <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 15: Adding Extra &quot;Unmapped&quot; Fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 15: Adding Extra &quot;Unmapped&quot; Fields" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1258,37 +1256,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/UserRegistrationFormType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="81" column="29" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="29" />
+        <state relative-caret-position="285">
+          <caret line="65" column="49" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
           <folding>
-            <element signature="e#2253#2282#1#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
-          <folding>
-            <element signature="e#31#79#0#PHP" expanded="true" />
+            <element signature="e#2287#2316#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/security/register.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="285">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/UserRegistrationFormType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="e#31#79#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
