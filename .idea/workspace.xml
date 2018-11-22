@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="">
+    <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 17: Agree to Terms Database Field">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SecurityController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/UserRegistrationFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/UserRegistrationFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/register.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +50,7 @@
           <entry key="json" value="1" />
           <entry key="log" value="5" />
           <entry key="md" value="2" />
-          <entry key="php" value="254" />
+          <entry key="php" value="257" />
           <entry key="twig" value="62" />
           <entry key="yaml" value="50" />
         </counts>
@@ -62,7 +65,7 @@
           <entry key="JavaScript" value="2" />
           <entry key="Log" value="5" />
           <entry key="Markdown" value="2" />
-          <entry key="PHP" value="254" />
+          <entry key="PHP" value="257" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Twig" value="62" />
           <entry key="YAML" value="50" />
@@ -76,9 +79,9 @@
           <entry key="env" value="177" />
           <entry key="js" value="309" />
           <entry key="md" value="14" />
-          <entry key="php" value="14368" />
-          <entry key="twig" value="3361" />
-          <entry key="txt" value="1508" />
+          <entry key="php" value="14789" />
+          <entry key="twig" value="3364" />
+          <entry key="txt" value="1510" />
           <entry key="yaml" value="1239" />
         </counts>
       </usages-collector>
@@ -89,9 +92,9 @@
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
-          <entry key="PHP" value="14359" />
-          <entry key="PLAIN_TEXT" value="1531" />
-          <entry key="Twig" value="3361" />
+          <entry key="PHP" value="14780" />
+          <entry key="PLAIN_TEXT" value="1533" />
+          <entry key="Twig" value="3364" />
           <entry key="YAML" value="1239" />
         </counts>
       </usages-collector>
@@ -105,11 +108,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="65" column="49" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
+            <state relative-caret-position="304">
+              <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
               <folding>
                 <element signature="e#2287#2316#0#PHP" expanded="true" />
               </folding>
@@ -120,8 +123,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/security/register.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="148">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -129,17 +132,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Form/UserRegistrationFormType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            <state relative-caret-position="315">
+              <caret line="38" column="89" selection-start-line="38" selection-start-column="89" selection-end-line="38" selection-end-column="89" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+            <state relative-caret-position="401">
+              <caret line="267" column="47" selection-start-line="267" selection-start-column="47" selection-end-line="267" selection-end-column="47" />
               <folding>
                 <element signature="e#31#79#0#PHP" expanded="true" />
               </folding>
@@ -200,8 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DataFixtures/A0CommentFixture.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Comment.php" />
         <option value="$PROJECT_DIR$/templates/content_base.html.twig" />
         <option value="$PROJECT_DIR$/public/css/styles.css" />
         <option value="$PROJECT_DIR$/config/packages/twig_extensions.yaml" />
@@ -247,10 +248,12 @@
         <option value="$PROJECT_DIR$/templates/article_admin/edit.html.twig" />
         <option value="$PROJECT_DIR$/templates/article_admin/new.html.twig" />
         <option value="$PROJECT_DIR$/templates/article_admin/list.html.twig" />
-        <option value="$PROJECT_DIR$/templates/security/register.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/SecurityController.php" />
+        <option value="$PROJECT_DIR$/src/Migrations/Version20181122160336.php" />
+        <option value="$PROJECT_DIR$/src/Migrations/Version20181122160627.php" />
         <option value="$PROJECT_DIR$/src/Form/UserRegistrationFormType.php" />
         <option value="$PROJECT_DIR$/src/Entity/User.php" />
+        <option value="$PROJECT_DIR$/templates/security/register.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/SecurityController.php" />
       </list>
     </option>
   </component>
@@ -524,21 +527,7 @@
       <workItem from="1541773456659" duration="886000" />
       <workItem from="1542103545421" duration="1164000" />
       <workItem from="1542123994110" duration="631000" />
-      <workItem from="1542642907010" duration="4020000" />
-    </task>
-    <task id="LOCAL-00086" summary="Symfony Security: Beautiful Authentication, Powerful Authorization Tutorial Chapter 2: All about the User class">
-      <created>1536858344342</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1536858344342</updated>
-    </task>
-    <task id="LOCAL-00087" summary="Updated to match updated files from Knp University. Completed chapter 3: Customizing the User Entity">
-      <created>1536919153293</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1536919153293</updated>
+      <workItem from="1542642907010" duration="5926000" />
     </task>
     <task id="LOCAL-00088" summary="Updated to match updated files from Knp University. Completed chapter 3: Customizing the User Entity">
       <created>1536919226828</created>
@@ -869,11 +858,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542900845008</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 16: UniqueEntity &amp; Validation Directly on Form Fields">
+      <created>1542901933680</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1542901933680</updated>
+    </task>
+    <task id="LOCAL-00136" summary="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 17: Agree to Terms Database Field">
+      <created>1542902859450</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1542902859450</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204493000" />
+    <option name="totallyTimeSpent" value="206399000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -938,8 +941,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed chapter 23: Serializer &amp; API Endpoint" />
-    <MESSAGE value="Completed chapter 25: ApiToken Entity" />
     <MESSAGE value="Completed chapter 26: Entry Point: Helping Users Authenticate" />
     <MESSAGE value="Completed chapter 27: API Token Authenticator" />
     <MESSAGE value="Completed chapter 28: API Token Authenticator Part 2!" />
@@ -963,7 +964,9 @@
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 13: The Edit Form" />
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 14: Registration Form" />
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 15: Adding Extra &quot;Unmapped&quot; Fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 15: Adding Extra &quot;Unmapped&quot; Fields" />
+    <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 16: UniqueEntity &amp; Validation Directly on Form Fields" />
+    <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 17: Agree to Terms Database Field" />
+    <option name="LAST_COMMIT_MESSAGE" value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 17: Agree to Terms Database Field" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -978,8 +981,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/code-symfony-security/start/src/DataFixtures/ArticleFixtures.php" />
-    <entry file="file://$USER_HOME$/Downloads/code-symfony-security/start/src/DataFixtures/CommentFixture.php" />
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/CommentFixture.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1185,16 +1186,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3840">
-          <caret line="264" column="54" selection-start-line="264" selection-start-column="54" selection-end-line="264" selection-end-column="54" />
-          <folding>
-            <element signature="e#30#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Form/ArticleFormType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="573">
@@ -1256,36 +1247,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
+    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="65" column="49" selection-start-line="65" selection-start-column="49" selection-end-line="65" selection-end-column="49" />
+        <state relative-caret-position="3960">
+          <caret line="264" column="54" selection-start-line="264" selection-start-column="54" selection-end-line="264" selection-end-column="54" />
           <folding>
-            <element signature="e#2287#2316#0#PHP" expanded="true" />
+            <element signature="e#30#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20181122160627.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20181122160336.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/UserRegistrationFormType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="38" column="89" selection-start-line="38" selection-start-column="89" selection-end-line="38" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="267" column="47" selection-start-line="267" selection-start-column="47" selection-end-line="267" selection-end-column="47" />
+          <folding>
+            <element signature="e#31#79#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/security/register.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="148">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/UserRegistrationFormType.php">
+    <entry file="file://$PROJECT_DIR$/src/Controller/SecurityController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        <state relative-caret-position="304">
+          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
           <folding>
-            <element signature="e#31#79#0#PHP" expanded="true" />
+            <element signature="e#2287#2316#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
