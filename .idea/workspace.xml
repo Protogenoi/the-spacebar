@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/article_admin/_form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/article_admin/edit.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article_admin/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article_admin/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +20,9 @@
     <session id="674753202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="70" />
+          <entry key="project.closed" value="71" />
           <entry key="project.open.time.0" value="7" />
-          <entry key="project.open.time.1" value="41" />
+          <entry key="project.open.time.1" value="42" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -32,7 +34,7 @@
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="72" />
+          <entry key="project.opened" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -48,7 +50,7 @@
           <entry key="log" value="5" />
           <entry key="md" value="2" />
           <entry key="php" value="250" />
-          <entry key="twig" value="58" />
+          <entry key="twig" value="60" />
           <entry key="yaml" value="50" />
         </counts>
       </usages-collector>
@@ -64,7 +66,7 @@
           <entry key="Markdown" value="2" />
           <entry key="PHP" value="250" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Twig" value="58" />
+          <entry key="Twig" value="60" />
           <entry key="YAML" value="50" />
         </counts>
       </usages-collector>
@@ -76,9 +78,9 @@
           <entry key="env" value="177" />
           <entry key="js" value="309" />
           <entry key="md" value="14" />
-          <entry key="php" value="13803" />
-          <entry key="twig" value="3215" />
-          <entry key="txt" value="1504" />
+          <entry key="php" value="13910" />
+          <entry key="twig" value="3232" />
+          <entry key="txt" value="1505" />
           <entry key="yaml" value="1239" />
         </counts>
       </usages-collector>
@@ -89,9 +91,9 @@
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
-          <entry key="PHP" value="13794" />
-          <entry key="PLAIN_TEXT" value="1527" />
-          <entry key="Twig" value="3215" />
+          <entry key="PHP" value="13901" />
+          <entry key="PLAIN_TEXT" value="1528" />
+          <entry key="Twig" value="3232" />
           <entry key="YAML" value="1239" />
         </counts>
       </usages-collector>
@@ -108,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
+            <state relative-caret-position="3840">
               <caret line="264" column="54" selection-start-line="264" selection-start-column="54" selection-end-line="264" selection-end-column="54" />
               <folding>
                 <element signature="e#30#67#0#PHP" expanded="true" />
@@ -120,20 +122,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/ArticleAdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="537">
+              <caret line="76" column="48" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
               <folding>
                 <element signature="e#118#141#0#PHP" expanded="true" />
+                <element signature="e#1900#1920#1#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/article_admin/edit.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+              <folding>
+                <element signature="e#12#34#0#Twig" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/article_admin/_form.html.twig">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/article_admin/new.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="285">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -141,7 +161,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Form/ArticleFormType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
+            <state relative-caret-position="510">
               <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="44" selection-end-column="78" />
               <folding>
                 <element signature="e#29#52#0#PHP" expanded="true" />
@@ -212,7 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Migrations/Version20180905143302.php" />
         <option value="$PROJECT_DIR$/src/Migrations/Version20180905142025.php" />
         <option value="$PROJECT_DIR$/config/packages/stof_doctrine_extensions.yaml" />
         <option value="$PROJECT_DIR$/src/DataFixtures/A0CommentFixture.php" />
@@ -258,11 +277,12 @@
         <option value="$PROJECT_DIR$/templates/article_admin/list.html.twig" />
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/config/packages/twig.yaml" />
-        <option value="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" />
         <option value="$PROJECT_DIR$/src/Repository/UserRepository.php" />
         <option value="$PROJECT_DIR$/src/Form/ArticleFormType.php" />
         <option value="$PROJECT_DIR$/src/Entity/Article.php" />
         <option value="$PROJECT_DIR$/templates/article_admin/new.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" />
+        <option value="$PROJECT_DIR$/templates/article_admin/edit.html.twig" />
       </list>
     </option>
   </component>
@@ -405,6 +425,21 @@
               <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
               <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="article_admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -421,6 +456,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/article_admin" />
       <recent name="$PROJECT_DIR$/public/css" />
       <recent name="$PROJECT_DIR$/templates/article" />
       <recent name="$PROJECT_DIR$/public" />
@@ -519,14 +555,8 @@
       <workItem from="1541761607464" duration="1316000" />
       <workItem from="1541773456659" duration="886000" />
       <workItem from="1542103545421" duration="1164000" />
-      <workItem from="1542123994110" duration="597000" />
-    </task>
-    <task id="LOCAL-00082" summary="Mastering Doctrine Relations! Completed chapter 19: ManyToMany Joins &amp; When to Avoid ManyToMany">
-      <created>1536331838950</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1536331838950</updated>
+      <workItem from="1542123994110" duration="631000" />
+      <workItem from="1542642907010" duration="585000" />
     </task>
     <task id="LOCAL-00083" summary="Added composer require security">
       <created>1536857726389</created>
@@ -864,11 +894,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542105414693</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 12: Form Rendering Variables">
+      <created>1542124600302</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1542124600302</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200439000" />
+    <option name="totallyTimeSpent" value="201058000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -883,7 +920,7 @@
     <frame x="824" y="23" width="856" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25429976" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26044226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -933,7 +970,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed chapter 19: Custom User Method" />
     <MESSAGE value="Completed chapter 20: Fetching the User In a Service" />
     <MESSAGE value="Completed chapter 21: Role Hierarchy" />
     <MESSAGE value="Completed chapter 22: Impersonation (switch_user)" />
@@ -958,7 +994,8 @@
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 9: HTML5 &amp; &quot;Sanity&quot; Validation" />
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 10: Validation Constraints with @Assert" />
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 11: Form Rendering Functions: form_*" />
-    <option name="LAST_COMMIT_MESSAGE" value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 11: Form Rendering Functions: form_*" />
+    <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 12: Form Rendering Variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 12: Form Rendering Variables" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -973,8 +1010,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/code-symfony-security/start/src/DataFixtures/BaseFixture.php" />
-    <entry file="file://$USER_HOME$/Downloads/code-symfony-security/start/src/DataFixtures/TagFixture.php" />
     <entry file="file://$PROJECT_DIR$/src/DataFixtures/TagFixture.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1220,19 +1255,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ArticleAdminController.php">
+    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="3840">
+          <caret line="264" column="54" selection-start-line="264" selection-start-column="54" selection-end-line="264" selection-end-column="54" />
           <folding>
-            <element signature="e#118#141#0#PHP" expanded="true" />
+            <element signature="e#30#67#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Form/ArticleFormType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="510">
           <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="44" selection-end-column="78" />
           <folding>
             <element signature="e#29#52#0#PHP" expanded="true" />
@@ -1247,22 +1282,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
+    <entry file="file://$PROJECT_DIR$/templates/article_admin/new.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="264" column="54" selection-start-line="264" selection-start-column="54" selection-end-line="264" selection-end-column="54" />
+        <state relative-caret-position="285">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ArticleAdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="76" column="48" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
           <folding>
-            <element signature="e#30#67#0#PHP" expanded="true" />
+            <element signature="e#118#141#0#PHP" expanded="true" />
+            <element signature="e#1900#1920#1#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/article_admin/new.html.twig">
+    <entry file="file://$PROJECT_DIR$/templates/article_admin/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="225">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+          <folding>
+            <element signature="e#12#34#0#Twig" expanded="true" />
+          </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article_admin/_form.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
