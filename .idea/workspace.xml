@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60df061e-9308-4e86-85a5-a2731bea8204" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Form/EmailToUserTransformer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/EmailToUserTransformer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/EmailToUserTransformer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/UserSelectTextType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/UserSelectTextType.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +19,7 @@
     <session id="674753202">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="73" />
+          <entry key="project.closed" value="74" />
           <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="43" />
           <entry key="project.open.time.12" value="1" />
@@ -30,11 +30,11 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="75" />
+          <entry key="project.opened" value="76" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -49,7 +49,7 @@
           <entry key="json" value="1" />
           <entry key="log" value="5" />
           <entry key="md" value="2" />
-          <entry key="php" value="261" />
+          <entry key="php" value="262" />
           <entry key="twig" value="65" />
           <entry key="yaml" value="51" />
         </counts>
@@ -64,7 +64,7 @@
           <entry key="JavaScript" value="2" />
           <entry key="Log" value="5" />
           <entry key="Markdown" value="2" />
-          <entry key="PHP" value="261" />
+          <entry key="PHP" value="262" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Twig" value="65" />
           <entry key="YAML" value="51" />
@@ -78,9 +78,9 @@
           <entry key="env" value="177" />
           <entry key="js" value="309" />
           <entry key="md" value="14" />
-          <entry key="php" value="15280" />
+          <entry key="php" value="15591" />
           <entry key="twig" value="3615" />
-          <entry key="txt" value="1517" />
+          <entry key="txt" value="1519" />
           <entry key="yaml" value="1239" />
         </counts>
       </usages-collector>
@@ -91,8 +91,8 @@
           <entry key="HTML" value="9" />
           <entry key="JavaScript" value="309" />
           <entry key="Markdown" value="14" />
-          <entry key="PHP" value="15271" />
-          <entry key="PLAIN_TEXT" value="1540" />
+          <entry key="PHP" value="15582" />
+          <entry key="PLAIN_TEXT" value="1542" />
           <entry key="Twig" value="3615" />
           <entry key="YAML" value="1239" />
         </counts>
@@ -116,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Form/EmailToUserTransformer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+            <state relative-caret-position="545">
+              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
               <folding>
                 <element signature="e#29#49#0#PHP" expanded="true" />
               </folding>
@@ -129,12 +129,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+              <folding>
+                <element signature="e#30#67#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Form/UserSelectTextType.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="28" column="86" selection-start-line="28" selection-start-column="86" selection-end-line="28" selection-end-column="86" />
+            <state relative-caret-position="278">
+              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
               <folding>
-                <element signature="e#113#147#0#PHP" expanded="true" />
+                <element signature="e#29#63#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -229,7 +241,6 @@
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/config/packages/twig.yaml" />
         <option value="$PROJECT_DIR$/src/Repository/UserRepository.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Article.php" />
         <option value="$PROJECT_DIR$/src/Controller/ArticleAdminController.php" />
         <option value="$PROJECT_DIR$/templates/article_admin/_form.html.twig" />
         <option value="$PROJECT_DIR$/templates/article_admin/edit.html.twig" />
@@ -243,8 +254,9 @@
         <option value="$PROJECT_DIR$/src/Form/UserRegistrationFormType.php" />
         <option value="$PROJECT_DIR$/templates/security/register.html.twig" />
         <option value="$PROJECT_DIR$/src/Form/ArticleFormType.php" />
-        <option value="$PROJECT_DIR$/src/Form/UserSelectTextType.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Article.php" />
         <option value="$PROJECT_DIR$/src/Form/EmailToUserTransformer.php" />
+        <option value="$PROJECT_DIR$/src/Form/UserSelectTextType.php" />
       </list>
     </option>
   </component>
@@ -379,6 +391,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -395,6 +408,12 @@
               <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
               <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="the_spacebar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="the_spacebar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Form" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -405,7 +424,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -521,21 +539,8 @@
       <workItem from="1542123994110" duration="631000" />
       <workItem from="1542642907010" duration="6655000" />
       <workItem from="1543399645253" duration="2153000" />
-      <workItem from="1543572557077" duration="3574000" />
-    </task>
-    <task id="LOCAL-00094" summary="Completed chapter 8: Authentication Errors">
-      <created>1537366346571</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1537366346572</updated>
-    </task>
-    <task id="LOCAL-00095" summary="Completed chapter 8: Authentication Errors (added missing code for on authentication failure).">
-      <created>1537366529401</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1537366529401</updated>
+      <workItem from="1543572557077" duration="5062000" />
+      <workItem from="1544089571619" duration="1470000" />
     </task>
     <task id="LOCAL-00096" summary="Completed chapter 9: Customizing Errors &amp; Logout">
       <created>1537445323134</created>
@@ -866,11 +871,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543920653993</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 24: Data Transformer">
+      <created>1543922683572</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1543922683572</updated>
+    </task>
+    <task id="LOCAL-00144" summary="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 25: Custom Field: configureOptions() &amp; Allowing Empty Input">
+      <created>1543930220264</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1543930220264</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212855000" />
+    <option name="totallyTimeSpent" value="215813000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -885,7 +904,7 @@
     <frame x="856" y="23" width="824" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28005114" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28644502" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -898,7 +917,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32905984" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4954023" weight="0.32834226" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4954023" visible="true" weight="0.32834226" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5045977" side_tool="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32905984" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -935,8 +954,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed chapter 32: Voters" />
-    <MESSAGE value="Completed chapter 33: Adding a Custom Voter" />
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Completed chapter 1: Form Type Class" />
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Completed chapter 2: Handling the Form Submit" />
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Completed chapter 3: Success (Flash) Messages" />
@@ -960,7 +977,9 @@
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 21: Form Theming &amp; Variables" />
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 22: Form Theming a Single Field" />
     <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 23: Custom Field Type" />
-    <option name="LAST_COMMIT_MESSAGE" value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 23: Custom Field Type" />
+    <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 24: Data Transformer" />
+    <MESSAGE value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 25: Custom Field: configureOptions() &amp; Allowing Empty Input" />
+    <option name="LAST_COMMIT_MESSAGE" value="Symfony 4 Forms: Build, Render &amp; Conquer!: Chapter 25: Custom Field: configureOptions() &amp; Allowing Empty Input" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1183,16 +1202,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3960">
-          <caret line="264" column="54" selection-start-line="264" selection-start-column="54" selection-end-line="264" selection-end-column="54" />
-          <folding>
-            <element signature="e#30#67#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Migrations/Version20181122160627.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1261,6 +1270,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/EmailToUserTransformer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+          <folding>
+            <element signature="e#29#49#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Form/ArticleFormType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1268,22 +1287,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/UserSelectTextType.php">
+    <entry file="file://$PROJECT_DIR$/src/Entity/Article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" column="86" selection-start-line="28" selection-start-column="86" selection-end-line="28" selection-end-column="86" />
+        <state relative-caret-position="365">
+          <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
           <folding>
-            <element signature="e#113#147#0#PHP" expanded="true" />
+            <element signature="e#30#67#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/EmailToUserTransformer.php">
+    <entry file="file://$PROJECT_DIR$/src/Form/UserSelectTextType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+        <state relative-caret-position="278">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
           <folding>
-            <element signature="e#29#49#0#PHP" expanded="true" />
+            <element signature="e#29#63#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
